@@ -77,7 +77,8 @@ To use the dataset, please download it from https://dafd.com and structure your 
 ## wandb login
 nstall and login to wandb:
 <code>pip install wandb</code>
-    <code>wandb login</code>
+
+<code>wandb login</code>
 
 ## Training
 To train a model, please run the following command:
