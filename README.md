@@ -1,69 +1,67 @@
-ISD: Industry Synthetic Dataset for Part Classification
-Introduction
-Deep neural networks have shown outstanding performance in automatic industrial part classification. However, training these networks typically requires a large amount of real-world data, which is time-consuming, laborious, and expensive to collect. A potential solution to this problem is to use synthetic data for training. However, synthetic data introduces a domain gap that degrades the performance when tested in real environments. To address this issue, we introduce a new dataset, ISD: Industry Synthetic Dataset, for the Sim2Real challenge in industrial part classification. This dataset contains synthetic and real images from multi-domain industrial scenarios.
+I# ISD: Industry Synthetic Dataset for Part Classification
 
-Dataset
+## Abstract
+Deep neural networks, with their outperformance, can provide a robust solution for automatic industrial part classification. One drawback of these networks is that they require a large amount of data which is a laborious, time-consuming, and costly process. An alternative is to use synthetic data for training. Synthetic data introduce a domain gap that degrades the performance when tested in real environments. In this paper, we introduce a new dataset, ISD: Industry Synthetic Dataset, for the Sim2Real challenge in industrial part classification. This dataset contains synthetic and real images from multi-domain industrial scenarios. We then evaluate the baseline performance of our dataset with different SOTA supervised and self-supervised neural networks. Our dataset is available at https://dafd.com.
+
+## Dataset
 We assume your data is structured with the following format:
 
-Data
-├── train
-│   ├── class1
-│   │   ├── image1.jpg
-│   │   ├── image2.jpg
-│   │   └── ...
-│   ├── class2
-│   │   ├── image1.jpg
-│   │   ├── image2.jpg
-│   │   └── ...
-│   └── ...
-├── val
-│   ├── class1
-│   │   ├── image1.jpg
-│   │   ├── image2.jpg
-│   │   └── ...
-│   ├── class2
-│   │   ├── image1.jpg
-│   │   ├── image2.jpg
-│   │   └── ...
-│   └── ...
-└── test
-    ├── class1
-    │   ├── image1.jpg
-    │   ├── image2.jpg
-    │   └── ...
-    ├── class2
-    │   ├── image1.jpg
-    │   ├── image2.jpg
-    │   └── ...
-    └── ...
+Data/
+├── train/
+│ ├── class1/
+│ │ ├── image1.jpg
+│ │ ├── image2.jpg
+│ │ └── ...
+│ ├── class2/
+│ │ ├── image1.jpg
+│ │ ├── image2.jpg
+│ │ └── ...
+│ └── ...
+├── val/
+│ ├── class1/
+│ │ ├── image1.jpg
+│ │ ├── image2.jpg
+│ │ └── ...
+│ ├── class2/
+│ │ ├── image1.jpg
+│ │ ├── image2.jpg
+│ │ └── ...
+│ └── ...
+└── test/
+├── class1/
+│ ├── image1.jpg
+│ ├── image2.jpg
+│ └── ...
+├── class2/
+│ ├── image1.jpg
+│ ├── image2.jpg
+│ └── ...
+└── ...
 
-wandb login
-Install and login to wandb:
 
-Copy code
-pip install wandb
-wandb login
-Training
-Please run the following command to do transfer learning on your custom data:
+To use the dataset, please download it from https://dafd.com and structure your data in the above format.
 
-css
-Copy code
-python ConvNeXt_train.py --data_path /path/to/Data --output_dir "/path/to/checkpoint.pth"
-Choose --output_dir as the path and name you want to choose for the weights file.
+## Training
+To train a model, please run the following command:
 
-Testing/Evaluation
-Run the following command according to your data and pre-trained weights:
+python train.py --data_path /path/to/Data --output_dir "/path/to/checkpoint.pth"
 
-css
-Copy code
-python ConvNeXt_test.py --data_path /path/to/Data --weights "/path/to/checkpoint.pth"
-Choose --weights as the path to the saved weights file. Note that you should put test images in a folder with the name 'val'.
 
-Credits & How to cite
-If you use our dataset or code, please cite our paper:
+Choose `--output_dir` as the path and name you want to choose for the weights file.
 
-csharp
-Copy code
-[insert citation here]
-License
-This project is licensed under the [insert license here] license.
+## Testing/Evaluation
+To evaluate a model, please run the following command:
+
+python test.py --data_path /path/to/Data --weights "/path/to/checkpoint.pth"
+
+
+Choose `--weights` as the path to the saved weights file. Note: put test images in a folder named 'val'.
+
+## Credits & How to Cite
+If you use this dataset in your research, please cite our paper: 
+
+[Paper citation information here]
+
+## License
+This project is licensed under the [license name] License - see the LICENSE.md file for details.
+
