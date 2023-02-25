@@ -72,15 +72,7 @@
 </ul>
 
 <h2>Pretrained models</h2>
-<p>We have provided pretrained models for the following deep neural networks:</p>
-<ul>
-  <li>Use Case 1</li>
-  <li>Use Case 2</li>
-  <li>Use Case 3</li>
-  <li>Use Case 4</li>
-  <li>Use Case 5</li>
-  <li>Use Case 6</li>
-</ul>
+<p>We have provided pretrained models for the following networks:</p>
 
 <table>
   <thead>
