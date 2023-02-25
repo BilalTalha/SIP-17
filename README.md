@@ -6,37 +6,69 @@ Deep neural networks, with their outperformance, can provide a robust solution f
 ## Dataset
 We assume your data is structured with the following format:
 
-Data/
-├── train/
-│ ├── class1/
-│ │ ├── image1.jpg
-│ │ ├── image2.jpg
-│ │ └── ...
-│ ├── class2/
-│ │ ├── image1.jpg
-│ │ ├── image2.jpg
-│ │ └── ...
-│ └── ...
-├── val/
-│ ├── class1/
-│ │ ├── image1.jpg
-│ │ ├── image2.jpg
-│ │ └── ...
-│ ├── class2/
-│ │ ├── image1.jpg
-│ │ ├── image2.jpg
-│ │ └── ...
-│ └── ...
-└── test/
-├── class1/
-│ ├── image1.jpg
-│ ├── image2.jpg
-│ └── ...
-├── class2/
-│ ├── image1.jpg
-│ ├── image2.jpg
-│ └── ...
-└── ...
+<ul>
+<li>Data
+<ul>
+<li>train
+<ul>
+<li>class1
+<ul>
+<li>image1.jpg</li>
+<li>image2.jpg</li>
+<li>...</li>
+</ul>
+</li>
+<li>class2
+<ul>
+<li>image1.jpg</li>
+<li>image2.jpg</li>
+<li>...</li>
+</ul>
+</li>
+<li>...</li>
+</ul>
+</li>
+<li>val
+<ul>
+<li>class1
+<ul>
+<li>image1.jpg</li>
+<li>image2.jpg</li>
+<li>...</li>
+</ul>
+</li>
+<li>class2
+<ul>
+<li>image1.jpg</li>
+<li>image2.jpg</li>
+<li>...</li>
+</ul>
+</li>
+<li>...</li>
+</ul>
+</li>
+<li>test
+<ul>
+<li>class1
+<ul>
+<li>image1.jpg</li>
+<li>image2.jpg</li>
+<li>...</li>
+</ul>
+</li>
+<li>class2
+<ul>
+<li>image1.jpg</li>
+<li>image2.jpg</li>
+<li>...</li>
+</ul>
+</li>
+<li>...</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 
 
 To use the dataset, please download it from https://dafd.com and structure your data in the above format.
