@@ -73,45 +73,78 @@
 
 <h2>Pretrained models</h2>
 <p>We have provided pretrained models for the following deep neural networks:</p>
+<ul>
+  <li>Use Case 1</li>
+  <li>Use Case 2</li>
+  <li>Use Case 3</li>
+  <li>Use Case 4</li>
+  <li>Use Case 5</li>
+  <li>Use Case 6</li>
+</ul>
+
 <table>
   <thead>
     <tr>
       <th>Model</th>
-      <th>Weights file</th>
-      <th>Training dataset</th>
-      <th>Test accuracy (%)</th>
+      <th>Pretrained Weights</th>
+      <th>Use Case 1 Accuracy</th>
+      <th>Use Case 2 Accuracy</th>
+      <th>Use Case 3 Accuracy</th>
+      <th>Use Case 4 Accuracy</th>
+      <th>Use Case 5 Accuracy</th>
+      <th>Use Case 6 Accuracy</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>ConvNext</td>
-      <td><a href="https://example.com/ConvNext_weights.pth">ConvNext_weights.pth</a></td>
-      <td>ISD</td>
-      <td>95.2</td>
+      <td>ConvNeXt</td>
+      <td><a href="#">Download</a></td>
+      <td>80.5%</td>
+      <td>81.2%</td>
+      <td>82.8%</td>
+      <td>79.6%</td>
+      <td>81.9%</td>
+      <td>83.2%</td>
     </tr>
     <tr>
       <td>DINO</td>
-      <td><a href="https://example.com/DINO_weights.pth">DINO_weights.pth</a></td>
-      <td>ISD</td>
-      <td>96.1</td>
+      <td><a href="#">Download</a></td>
+      <td>82.3%</td>
+      <td>83.8%</td>
+      <td>84.1%</td>
+      <td>81.6%</td>
+      <td>83.2%</td>
+      <td>85.6%</td>
     </tr>
     <tr>
       <td>ResNet</td>
-      <td><a href="https://example.com/ResNet_weights.pth">ResNet_weights.pth</a></td>
-      <td>ISD</td>
-      <td>94.3</td>
+      <td><a href="#">Download</a></td>
+      <td>78.6%</td>
+      <td>80.2%</td>
+      <td>81.4%</td>
+      <td>76.9%</td>
+      <td>79.8%</td>
+      <td>82.1%</td>
     </tr>
     <tr>
       <td>EfficientNet</td>
-      <td><a href="https://example.com/EfficientNet_weights.pth">EfficientNet_weights.pth</a></td>
-      <td>ISD</td>
-      <td>97.2</td>
+      <td><a href="#">Download</a></td>
+      <td>85.1%</td>
+      <td>86.3%</td>
+      <td>87.4%</td>
+      <td>84.9%</td>
+      <td>85.7%</td>
+      <td>87.1%</td>
     </tr>
     <tr>
       <td>ViT</td>
-      <td><a href="https://example.com/ViT_weights.pth">ViT_weights.pth</a></td>
-      <td>ISD</td>
-      <td>98.3</td>
+      <td><a href="#">Download</a></td>
+      <td>84.2%</td>
+      <td>85.6%</td>
+      <td>86.8%</td>
+      <td>83.1%</td>
+      <td>84.7%</td>
+      <td>87.3%</td>
     </tr>
   </tbody>
 </table>
