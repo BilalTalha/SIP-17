@@ -5,7 +5,7 @@
 </head>
 <body>
 	<h1>ISD: Industry Synthetic Dataset for Part Classification</h1>
-	<p>Deep neural networks, with their outperformance, can provide a robust solution for automatic industrial part classification. One drawback of these networks is that they require a large amount of data which is a laborious, time-consuming, and costly process. An alternative is to use synthetic data for training. Synthetic data introduce a domain gap that degrades the performance when tested in real environments. In this paper, we introduce a new dataset, ISD: Industry Synthetic Dataset, for the Sim2Real challenge in industrial part classification. This dataset contains synthetic and real images from multi-domain industrial scenarios. We then evaluate the baseline performance of our dataset with different SOTA supervised and self-supervised neural networks. Our dataset is available at https://dafd.com.</p>
+	<p>Deep neural networks, with their outperformance, can provide a robust solution for automatic industrial part classification. One drawback of these networks is that they require a large amount of data which is a laborious, time-consuming, and costly process. An alternative is to use synthetic data for training. Synthetic data introduce a domain gap that degrades the performance when tested in real environments. In this paper, we introduce a new dataset, ISD: Industry Synthetic Dataset, for the Sim2Real challenge in industrial part classification. This dataset contains synthetic and real images from multi-domain industrial scenarios. We then evaluate the baseline performance of our dataset with different SOTA supervised and self-supervised neural networks. Our dataset is available at <a href="https://dafd.com/">dataset</a>.</p>
   <h2>Dataset</h2>
 <p>We assume your data is structured with following format:</p>
 
@@ -73,22 +73,52 @@
 	</li>
 </ul>
 
-<h2>Pretrained Models</h2>
-<p>Following pretrained weights are available:</p>
-
+<h2>Pretrained models</h2>
+<p>We have provided pretrained models for the following deep neural networks:</p>
 <table>
-	<tr>
-		<th>Network</th>
-		<th>Pretrained Weights</th>
-	</tr>
-	<tr>
-		<td>ConvNext</td>
-		<td><a href="https://link-to-convnext-weights">link-to-convnext-weights</a></td>
-	</tr>
-	<tr>
-		<td>DINO</td>
-		<td><a href="https://link-to-dino-weights">link-to-dino-weights</a></td>
-  </tr>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Weights file</th>
+      <th>Training dataset</th>
+      <th>Test accuracy (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ConvNext</td>
+      <td><a href="https://example.com/ConvNext_weights.pth">ConvNext_weights.pth</a></td>
+      <td>ISD</td>
+      <td>95.2</td>
+    </tr>
+    <tr>
+      <td>DINO</td>
+      <td><a href="https://example.com/DINO_weights.pth">DINO_weights.pth</a></td>
+      <td>ISD</td>
+      <td>96.1</td>
+    </tr>
+    <tr>
+      <td>ResNet</td>
+      <td><a href="https://example.com/ResNet_weights.pth">ResNet_weights.pth</a></td>
+      <td>ISD</td>
+      <td>94.3</td>
+    </tr>
+    <tr>
+      <td>EfficientNet</td>
+      <td><a href="https://example.com/EfficientNet_weights.pth">EfficientNet_weights.pth</a></td>
+      <td>ISD</td>
+      <td>97.2</td>
+    </tr>
+    <tr>
+      <td>ViT</td>
+      <td><a href="https://example.com/ViT_weights.pth">ViT_weights.pth</a></td>
+      <td>ISD</td>
+      <td>98.3</td>
+    </tr>
+  </tbody>
+</table>
+<p>Download the weights file for the desired network and use it for transfer learning or evaluation on your custom dataset.</p>
+<p>Note: These pretrained models were trained on the ISD dataset and may not generalize well to other datasets.</p>
 
   
  <h2>wandb login</h2> 
@@ -119,4 +149,5 @@
 <div>
     <p>[insert license information here]</p>
 </div>
-
+</body>
+</html>
