@@ -1,0 +1,241 @@
+2022-04-26 17:25:47,923 INFO    MainThread:10395 [internal.py:wandb_internal():93] W&B internal server running at pid: 10395, started at: 2022-04-26 17:25:47.920108
+2022-04-26 17:25:47,927 INFO    WriterThread:10395 [datastore.py:open_for_write():75] open: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/run-nb2dko63.wandb
+2022-04-26 17:25:47,931 DEBUG   SenderThread:10395 [sender.py:send():232] send: header
+2022-04-26 17:25:47,932 DEBUG   SenderThread:10395 [sender.py:send():232] send: run
+2022-04-26 17:25:48,083 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: check_version
+2022-04-26 17:25:48,089 INFO    SenderThread:10395 [dir_watcher.py:__init__():166] watching files in: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files
+2022-04-26 17:25:48,089 INFO    SenderThread:10395 [sender.py:_start_run_threads():814] run started: nb2dko63 with start time 1650993946
+2022-04-26 17:25:48,090 DEBUG   SenderThread:10395 [sender.py:send():232] send: summary
+2022-04-26 17:25:48,095 INFO    SenderThread:10395 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:25:48,096 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: check_version
+2022-04-26 17:25:48,152 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: run_start
+2022-04-26 17:25:49,118 INFO    Thread-7  :10395 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/wandb-summary.json
+2022-04-26 17:25:51,018 DEBUG   HandlerThread:10395 [meta.py:__init__():35] meta init
+2022-04-26 17:25:51,018 DEBUG   HandlerThread:10395 [meta.py:__init__():49] meta init done
+2022-04-26 17:25:51,018 DEBUG   HandlerThread:10395 [meta.py:probe():209] probe
+2022-04-26 17:25:51,030 DEBUG   HandlerThread:10395 [git.py:repo():29] git repository is invalid
+2022-04-26 17:25:51,030 DEBUG   HandlerThread:10395 [meta.py:_save_pip():53] save pip
+2022-04-26 17:25:51,044 DEBUG   HandlerThread:10395 [meta.py:_save_pip():67] save pip done
+2022-04-26 17:25:51,046 DEBUG   HandlerThread:10395 [meta.py:probe():247] probe done
+2022-04-26 17:25:51,054 DEBUG   SenderThread:10395 [sender.py:send():232] send: files
+2022-04-26 17:25:51,055 INFO    SenderThread:10395 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-04-26 17:25:51,072 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 17:25:51,074 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:25:51,131 INFO    Thread-7  :10395 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/wandb-metadata.json
+2022-04-26 17:25:51,132 INFO    Thread-7  :10395 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/output.log
+2022-04-26 17:25:51,133 INFO    Thread-7  :10395 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/requirements.txt
+2022-04-26 17:25:51,159 DEBUG   SenderThread:10395 [sender.py:send():232] send: telemetry
+2022-04-26 17:25:51,393 INFO    Thread-11 :10395 [upload_job.py:push():137] Uploaded file /tmp/tmp2zp0nk7zwandb/3cr8nkxa-wandb-metadata.json
+2022-04-26 17:26:01,855 DEBUG   SenderThread:10395 [sender.py:send():232] send: config
+2022-04-26 17:26:01,953 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: log_artifact
+2022-04-26 17:26:01,954 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: log_artifact
+2022-04-26 17:26:02,139 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:26:02,181 INFO    Thread-7  :10395 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/output.log
+2022-04-26 17:26:02,182 INFO    Thread-7  :10395 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/media/table/confusion_matrix_0_f366cb22b09e038e651d.table.json
+2022-04-26 17:26:02,182 INFO    Thread-7  :10395 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/media/table
+2022-04-26 17:26:02,184 INFO    Thread-7  :10395 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/media
+2022-04-26 17:26:02,861 INFO    Thread-13 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/0d/614a3fb146d8beb35febb4ad4df1b5
+2022-04-26 17:26:03,723 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: log_artifact
+2022-04-26 17:26:03,748 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:26:03,834 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: log_artifact
+2022-04-26 17:26:03,854 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:26:03,934 INFO    SenderThread:10395 [sender.py:send_request_log_artifact():1001] logged artifact run-nb2dko63-confusion_matrix - {'id': 'QXJ0aWZhY3Q6MTE4NjI5Mjg4', 'digest': '4218ce0989227cf1e976975a75c7b02d', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE5MzczMjgz', 'latestArtifact': None}, 'version': 'latest'}
+2022-04-26 17:26:03,935 DEBUG   SenderThread:10395 [sender.py:send():232] send: files
+2022-04-26 17:26:03,936 INFO    SenderThread:10395 [sender.py:_save_file():946] saving file media/table/confusion_matrix_0_f366cb22b09e038e651d.table.json with policy now
+2022-04-26 17:26:03,939 DEBUG   SenderThread:10395 [sender.py:send():232] send: history
+2022-04-26 17:26:03,940 DEBUG   SenderThread:10395 [sender.py:send():232] send: summary
+2022-04-26 17:26:03,952 INFO    SenderThread:10395 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:26:03,954 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: log_artifact
+2022-04-26 17:26:04,194 INFO    Thread-7  :10395 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/wandb-summary.json
+2022-04-26 17:26:04,195 INFO    Thread-7  :10395 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/media/table/ResNet_output_1_a19db26be2036f93ed1f.table.json
+2022-04-26 17:26:04,196 INFO    Thread-7  :10395 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/media/table/Per-Class-Accuracy_2_8e25b03ba82c5cbf7e53.table.json
+2022-04-26 17:26:04,198 INFO    Thread-7  :10395 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/media/table
+2022-04-26 17:26:04,351 INFO    Thread-14 :10395 [upload_job.py:push():137] Uploaded file /tmp/tmp2zp0nk7zwandb/j1kzcb67-media/table/confusion_matrix_0_f366cb22b09e038e651d.table.json
+2022-04-26 17:26:05,271 INFO    Thread-59 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/c3/e43feba4cf9b48974b0cb1bc4748a0
+2022-04-26 17:26:05,288 INFO    Thread-63 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/d2/d5baede06b27d925090cfee21c1277
+2022-04-26 17:26:05,320 INFO    Thread-40 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/62/6995f44622ee0e3c322147bf3f203d
+2022-04-26 17:26:05,324 INFO    Thread-46 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/77/b5574e1c1a0ddbfa2c87978db3276e
+2022-04-26 17:26:05,335 INFO    Thread-30 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/2c/3d11ffffa78f9ea9d00c4810baccce
+2022-04-26 17:26:05,360 INFO    Thread-51 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/a5/a0fecaeabd7aff396aa07c5d37c1fc
+2022-04-26 17:26:05,382 INFO    Thread-52 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/a6/3e8a7cdd7b93c6bb64470b847c747c
+2022-04-26 17:26:05,392 INFO    Thread-45 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/77/46f7e32ee1a8ce087da41756257104
+2022-04-26 17:26:05,480 INFO    Thread-35 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/57/0913d82bca3c111a15d7bc8261863d
+2022-04-26 17:26:05,490 INFO    Thread-16 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/50/83e74abed6247d96b368ea35cb2320
+2022-04-26 17:26:05,503 INFO    Thread-19 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/05/5955fcb957f1fa11304a7e33adb74d
+2022-04-26 17:26:05,511 INFO    Thread-62 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/ce/c627029a5563c39edde73193202af0
+2022-04-26 17:26:05,517 INFO    Thread-58 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/c0/459990e1448c8a7a94a4fe30e4c19c
+2022-04-26 17:26:05,527 INFO    Thread-48 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/80/bbecc0cb28bb2df5ceebffb5bf0379
+2022-04-26 17:26:05,529 INFO    Thread-57 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/ba/f46c0cbb3b926a45c5a2e4acc3be39
+2022-04-26 17:26:05,541 INFO    Thread-44 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/77/0250e4777ae185dcf41bd5ec245c1a
+2022-04-26 17:26:05,543 INFO    Thread-67 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/d9/b163778ba8621a582d7d01dc4e29ee
+2022-04-26 17:26:05,544 INFO    Thread-56 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/b8/66a7d316a9582b1fca686ec31c4004
+2022-04-26 17:26:05,546 INFO    Thread-49 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/9a/078ea1742cbfd30df9c5a1d0dc8bb9
+2022-04-26 17:26:05,550 INFO    Thread-61 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/ce/1aa86c057aa11ec1d0174b81a35e83
+2022-04-26 17:26:05,560 INFO    Thread-22 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/15/4969a5a1ce4224c2257f3e86156241
+2022-04-26 17:26:05,561 INFO    Thread-41 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/6c/588879ae606c0984e26437f7416154
+2022-04-26 17:26:05,564 INFO    Thread-29 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/25/7c2028483f2034c69651719ee5aaa3
+2022-04-26 17:26:05,567 INFO    Thread-54 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/b4/117bbac4505c37c515d8ebd7ad9435
+2022-04-26 17:26:05,570 INFO    Thread-33 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/3e/aa40de68ac8b70e334807922688dae
+2022-04-26 17:26:05,571 INFO    Thread-53 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/b0/32106171ea18fe92bd732ccbfc4e48
+2022-04-26 17:26:05,571 INFO    Thread-18 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/04/e54ec8e93463e1468809dc4f28b844
+2022-04-26 17:26:05,574 INFO    Thread-64 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/d3/77948da292010232448060927a46de
+2022-04-26 17:26:05,575 INFO    Thread-43 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/71/2230229ce978fccfd03110dd2fb4fd
+2022-04-26 17:26:05,579 INFO    Thread-55 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/b8/2cd00bc14fcc6939f3c66085f73192
+2022-04-26 17:26:05,582 INFO    Thread-28 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/1d/a89f7e55d085a20840eb92a130e802
+2022-04-26 17:26:05,583 INFO    Thread-24 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/19/2e08f00e366ddc6f4be628727453ad
+2022-04-26 17:26:05,585 INFO    Thread-60 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/c8/d8a8f6200a39d402d2c664fa3f9d16
+2022-04-26 17:26:05,587 INFO    Thread-17 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/04/52bcb8400b32677bb4c22cdefb6080
+2022-04-26 17:26:05,590 INFO    Thread-34 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/48/b38c2e7b95b5e11866d574c422bebf
+2022-04-26 17:26:05,591 INFO    Thread-69 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/fe/4118a092fd6110d306bf36c228969c
+2022-04-26 17:26:05,592 INFO    Thread-66 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/d9/9568cdfd854dcb69ef6c1c374f04ed
+2022-04-26 17:26:05,596 INFO    Thread-39 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/61/a6e12ecfd1996db25dc72b5493764d
+2022-04-26 17:26:05,598 INFO    Thread-42 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/6c/71886adfbc65d52754f6c0e86acca5
+2022-04-26 17:26:05,601 INFO    Thread-20 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/11/23d8523aae6d0018e4a87be1dca3fb
+2022-04-26 17:26:05,606 INFO    Thread-65 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/d5/4f65351b49410b9f8ede618283e824
+2022-04-26 17:26:05,608 INFO    Thread-37 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/5d/97ff79fcbf2a19904f678fd04fa3ed
+2022-04-26 17:26:05,611 INFO    Thread-26 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/1a/0a8f9f0511e02767677b305e2690cb
+2022-04-26 17:26:05,614 INFO    Thread-47 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/7c/dc950216aa969f25d4dfb3091f8bb7
+2022-04-26 17:26:05,620 INFO    Thread-23 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/15/997f8fcc3e7cc69d2ae8a965b4d83f
+2022-04-26 17:26:05,618 INFO    Thread-32 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/3a/d8b79fad258e4d807c371900a292f7
+2022-04-26 17:26:05,626 INFO    Thread-25 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/19/2e6f0bacf9f01759351bc0e1fdf1bb
+2022-04-26 17:26:05,626 INFO    Thread-50 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/a5/38ad787975c401481f090f1e2db635
+2022-04-26 17:26:05,628 INFO    Thread-68 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/f1/ae5aaab8b9e184dfc4013e8d3e0412
+2022-04-26 17:26:05,632 INFO    Thread-38 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/61/a2a062c2b3070c46bd9f2dd71e92ea
+2022-04-26 17:26:05,632 INFO    Thread-31 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/32/a3d79b86a1f725064dc72815c99e8f
+2022-04-26 17:26:05,634 INFO    Thread-36 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/59/2b743c68bf900152caa6f361226576
+2022-04-26 17:26:05,674 INFO    Thread-21 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/12/2eb2e30228c81d7fca9824a433b2c9
+2022-04-26 17:26:05,699 INFO    Thread-27 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/1d/6130041e0ce7fefd17a5a8337faeb6
+2022-04-26 17:26:06,109 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:26:06,213 INFO    Thread-7  :10395 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/output.log
+2022-04-26 17:26:09,159 INFO    SenderThread:10395 [sender.py:send_request_log_artifact():1001] logged artifact run-nb2dko63-ResNet_output - {'id': 'QXJ0aWZhY3Q6MTE4NjI5Mjk3', 'digest': '27de51712b17ee84c473c9f6fabfb0be', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE5MzczMjg0', 'latestArtifact': None}, 'version': 'latest'}
+2022-04-26 17:26:09,160 DEBUG   SenderThread:10395 [sender.py:send():232] send: files
+2022-04-26 17:26:09,161 INFO    SenderThread:10395 [sender.py:_save_file():946] saving file media/table/ResNet_output_1_a19db26be2036f93ed1f.table.json with policy now
+2022-04-26 17:26:09,165 DEBUG   SenderThread:10395 [sender.py:send():232] send: history
+2022-04-26 17:26:09,166 DEBUG   SenderThread:10395 [sender.py:send():232] send: summary
+2022-04-26 17:26:09,176 INFO    SenderThread:10395 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:26:09,178 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: log_artifact
+2022-04-26 17:26:09,231 INFO    Thread-7  :10395 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/wandb-summary.json
+2022-04-26 17:26:09,550 INFO    Thread-70 :10395 [upload_job.py:push():137] Uploaded file /tmp/tmp2zp0nk7zwandb/wtopxplm-media/table/ResNet_output_1_a19db26be2036f93ed1f.table.json
+2022-04-26 17:26:10,156 INFO    Thread-72 :10395 [upload_job.py:push():95] Uploaded file /root/.cache/wandb/artifacts/obj/md5/ef/55f8b28eb651970a3cecd7fd4b1d02
+2022-04-26 17:26:11,210 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:26:12,117 INFO    SenderThread:10395 [sender.py:send_request_log_artifact():1001] logged artifact run-nb2dko63-PerClassAccuracy - {'id': 'QXJ0aWZhY3Q6MTE4NjI5MzE1', 'digest': 'ae74be69547fb4c587273e43f4218576', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE5MzczMjg1', 'latestArtifact': None}, 'version': 'latest'}
+2022-04-26 17:26:12,118 DEBUG   SenderThread:10395 [sender.py:send():232] send: files
+2022-04-26 17:26:12,119 INFO    SenderThread:10395 [sender.py:_save_file():946] saving file media/table/Per-Class-Accuracy_2_8e25b03ba82c5cbf7e53.table.json with policy now
+2022-04-26 17:26:12,123 DEBUG   SenderThread:10395 [sender.py:send():232] send: history
+2022-04-26 17:26:12,124 DEBUG   SenderThread:10395 [sender.py:send():232] send: summary
+2022-04-26 17:26:12,136 INFO    SenderThread:10395 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:26:12,138 DEBUG   SenderThread:10395 [sender.py:send():232] send: telemetry
+2022-04-26 17:26:12,138 DEBUG   SenderThread:10395 [sender.py:send():232] send: exit
+2022-04-26 17:26:12,139 INFO    SenderThread:10395 [sender.py:send_exit():368] handling exit code: 0
+2022-04-26 17:26:12,139 INFO    SenderThread:10395 [sender.py:send_exit():370] handling runtime: 17
+2022-04-26 17:26:12,171 INFO    SenderThread:10395 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:26:12,173 INFO    SenderThread:10395 [sender.py:send_exit():376] send defer
+2022-04-26 17:26:12,173 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:26:12,173 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:26:12,174 INFO    HandlerThread:10395 [handler.py:handle_request_defer():164] handle defer: 0
+2022-04-26 17:26:12,174 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:26:12,175 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:26:12,176 INFO    SenderThread:10395 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-04-26 17:26:12,176 INFO    SenderThread:10395 [sender.py:transition_state():389] send defer: 1
+2022-04-26 17:26:12,177 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:26:12,177 INFO    HandlerThread:10395 [handler.py:handle_request_defer():164] handle defer: 1
+2022-04-26 17:26:12,249 INFO    Thread-7  :10395 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/wandb-summary.json
+2022-04-26 17:26:12,263 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:26:12,264 INFO    SenderThread:10395 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-04-26 17:26:12,264 INFO    SenderThread:10395 [sender.py:transition_state():389] send defer: 2
+2022-04-26 17:26:12,264 DEBUG   SenderThread:10395 [sender.py:send():232] send: stats
+2022-04-26 17:26:12,265 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:26:12,267 INFO    HandlerThread:10395 [handler.py:handle_request_defer():164] handle defer: 2
+2022-04-26 17:26:12,267 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:26:12,268 INFO    SenderThread:10395 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-04-26 17:26:12,268 INFO    SenderThread:10395 [sender.py:transition_state():389] send defer: 3
+2022-04-26 17:26:12,268 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:26:12,269 INFO    HandlerThread:10395 [handler.py:handle_request_defer():164] handle defer: 3
+2022-04-26 17:26:12,269 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:26:12,269 INFO    SenderThread:10395 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-04-26 17:26:12,269 INFO    SenderThread:10395 [sender.py:transition_state():389] send defer: 4
+2022-04-26 17:26:12,270 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:26:12,270 INFO    HandlerThread:10395 [handler.py:handle_request_defer():164] handle defer: 4
+2022-04-26 17:26:12,271 DEBUG   SenderThread:10395 [sender.py:send():232] send: summary
+2022-04-26 17:26:12,275 INFO    SenderThread:10395 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:26:12,277 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:26:12,277 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:26:12,278 INFO    SenderThread:10395 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-04-26 17:26:12,278 INFO    SenderThread:10395 [sender.py:transition_state():389] send defer: 5
+2022-04-26 17:26:12,278 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:26:12,279 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:26:12,279 INFO    HandlerThread:10395 [handler.py:handle_request_defer():164] handle defer: 5
+2022-04-26 17:26:12,280 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:26:12,280 INFO    SenderThread:10395 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-04-26 17:26:12,380 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:26:12,415 INFO    SenderThread:10395 [sender.py:transition_state():389] send defer: 6
+2022-04-26 17:26:12,416 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:26:12,416 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:26:12,417 INFO    HandlerThread:10395 [handler.py:handle_request_defer():164] handle defer: 6
+2022-04-26 17:26:12,417 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:26:12,417 INFO    SenderThread:10395 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-04-26 17:26:12,418 INFO    SenderThread:10395 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-04-26 17:26:12,465 INFO    Thread-73 :10395 [upload_job.py:push():137] Uploaded file /tmp/tmp2zp0nk7zwandb/62w3hqo3-media/table/Per-Class-Accuracy_2_8e25b03ba82c5cbf7e53.table.json
+2022-04-26 17:26:12,518 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:26:13,260 INFO    SenderThread:10395 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/config.yaml
+2022-04-26 17:26:13,262 INFO    SenderThread:10395 [dir_watcher.py:finish():309] scan: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files
+2022-04-26 17:26:13,263 INFO    SenderThread:10395 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/config.yaml config.yaml
+2022-04-26 17:26:13,264 INFO    SenderThread:10395 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/wandb-summary.json wandb-summary.json
+2022-04-26 17:26:13,270 INFO    SenderThread:10395 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/requirements.txt requirements.txt
+2022-04-26 17:26:13,276 INFO    SenderThread:10395 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/wandb-metadata.json wandb-metadata.json
+2022-04-26 17:26:13,281 INFO    SenderThread:10395 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/output.log output.log
+2022-04-26 17:26:13,290 INFO    SenderThread:10395 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/media/table/confusion_matrix_0_f366cb22b09e038e651d.table.json media/table/confusion_matrix_0_f366cb22b09e038e651d.table.json
+2022-04-26 17:26:13,290 INFO    SenderThread:10395 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/media/table/ResNet_output_1_a19db26be2036f93ed1f.table.json media/table/ResNet_output_1_a19db26be2036f93ed1f.table.json
+2022-04-26 17:26:13,291 INFO    SenderThread:10395 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/media/table/Per-Class-Accuracy_2_8e25b03ba82c5cbf7e53.table.json media/table/Per-Class-Accuracy_2_8e25b03ba82c5cbf7e53.table.json
+2022-04-26 17:26:13,291 INFO    SenderThread:10395 [sender.py:transition_state():389] send defer: 7
+2022-04-26 17:26:13,291 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:26:13,292 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:26:13,293 INFO    HandlerThread:10395 [handler.py:handle_request_defer():164] handle defer: 7
+2022-04-26 17:26:13,294 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:26:13,294 INFO    SenderThread:10395 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-04-26 17:26:13,295 INFO    SenderThread:10395 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-26 17:26:13,394 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:26:13,395 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:26:13,497 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:26:13,497 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:26:13,593 INFO    Thread-74 :10395 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/config.yaml
+2022-04-26 17:26:13,599 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:26:13,599 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:26:13,621 INFO    Thread-75 :10395 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/wandb-summary.json
+2022-04-26 17:26:13,647 INFO    Thread-76 :10395 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/requirements.txt
+2022-04-26 17:26:13,648 INFO    Thread-77 :10395 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/files/output.log
+2022-04-26 17:26:13,701 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:26:13,702 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:26:13,803 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:26:13,804 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:26:13,849 INFO    Thread-6  :10395 [sender.py:transition_state():389] send defer: 8
+2022-04-26 17:26:13,850 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:26:13,850 INFO    HandlerThread:10395 [handler.py:handle_request_defer():164] handle defer: 8
+2022-04-26 17:26:13,850 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:26:13,850 INFO    SenderThread:10395 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-04-26 17:26:13,905 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:26:14,082 INFO    SenderThread:10395 [sender.py:transition_state():389] send defer: 9
+2022-04-26 17:26:14,082 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:26:14,083 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:26:14,083 INFO    HandlerThread:10395 [handler.py:handle_request_defer():164] handle defer: 9
+2022-04-26 17:26:14,084 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:26:14,084 INFO    SenderThread:10395 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-04-26 17:26:14,084 INFO    SenderThread:10395 [sender.py:transition_state():389] send defer: 10
+2022-04-26 17:26:14,086 DEBUG   SenderThread:10395 [sender.py:send():232] send: final
+2022-04-26 17:26:14,086 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:26:14,086 DEBUG   SenderThread:10395 [sender.py:send():232] send: footer
+2022-04-26 17:26:14,087 INFO    HandlerThread:10395 [handler.py:handle_request_defer():164] handle defer: 10
+2022-04-26 17:26:14,087 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:26:14,088 INFO    SenderThread:10395 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-04-26 17:26:14,185 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:26:14,185 DEBUG   SenderThread:10395 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:26:14,185 INFO    SenderThread:10395 [file_pusher.py:join():150] waiting for file pusher
+2022-04-26 17:26:14,349 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: sampled_history
+2022-04-26 17:26:14,350 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: get_summary
+2022-04-26 17:26:14,352 DEBUG   HandlerThread:10395 [handler.py:handle_request():141] handle_request: shutdown
+2022-04-26 17:26:14,352 INFO    HandlerThread:10395 [handler.py:finish():806] shutting down handler
+2022-04-26 17:26:15,086 INFO    WriterThread:10395 [datastore.py:close():279] close: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_172546-nb2dko63/run-nb2dko63.wandb
+2022-04-26 17:26:15,247 INFO    SenderThread:10395 [sender.py:finish():1106] shutting down sender
+2022-04-26 17:26:15,248 INFO    SenderThread:10395 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-26 17:26:15,248 INFO    SenderThread:10395 [file_pusher.py:join():150] waiting for file pusher
+2022-04-26 17:26:15,250 INFO    MainThread:10395 [internal.py:handle_exit():80] Internal process exited

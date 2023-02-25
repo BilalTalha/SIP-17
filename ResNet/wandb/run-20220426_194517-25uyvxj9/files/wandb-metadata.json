@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.4.144+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-04-26T19:45:21.905473",
+    "startedAt": "2022-04-26T19:45:17.214463",
+    "docker": null,
+    "gpu": "Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "cpu_count": 2,
+    "cuda": null,
+    "args": [
+        "--data_path",
+        "/content/drive/MyDrive/Scania_Thesis/Final_Dataset_Clean",
+        "--output_dir",
+        "/content/drive/MyDrive/Scania_Thesis/Mini-test/checkpoint.pth"
+    ],
+    "state": "running",
+    "program": "ResNet_train.py",
+    "codePath": "ResNet_train.py",
+    "host": "189ad4e39347",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}

@@ -1,0 +1,913 @@
+2022-04-26 16:35:57,280 INFO    MainThread:8747 [internal.py:wandb_internal():93] W&B internal server running at pid: 8747, started at: 2022-04-26 16:35:57.276365
+2022-04-26 16:35:57,283 INFO    WriterThread:8747 [datastore.py:open_for_write():75] open: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/run-2368t6h7.wandb
+2022-04-26 16:35:57,289 DEBUG   SenderThread:8747 [sender.py:send():232] send: header
+2022-04-26 16:35:57,290 DEBUG   SenderThread:8747 [sender.py:send():232] send: run
+2022-04-26 16:35:57,405 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: check_version
+2022-04-26 16:35:57,412 INFO    SenderThread:8747 [dir_watcher.py:__init__():166] watching files in: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files
+2022-04-26 16:35:57,413 INFO    SenderThread:8747 [sender.py:_start_run_threads():814] run started: 2368t6h7 with start time 1650990956
+2022-04-26 16:35:57,413 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:35:57,418 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:35:57,420 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: check_version
+2022-04-26 16:35:57,477 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: run_start
+2022-04-26 16:35:58,419 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:36:01,533 DEBUG   HandlerThread:8747 [meta.py:__init__():35] meta init
+2022-04-26 16:36:01,534 DEBUG   HandlerThread:8747 [meta.py:__init__():49] meta init done
+2022-04-26 16:36:01,534 DEBUG   HandlerThread:8747 [meta.py:probe():209] probe
+2022-04-26 16:36:01,545 DEBUG   HandlerThread:8747 [git.py:repo():29] git repository is invalid
+2022-04-26 16:36:01,546 DEBUG   HandlerThread:8747 [meta.py:_save_pip():53] save pip
+2022-04-26 16:36:01,553 DEBUG   HandlerThread:8747 [meta.py:_save_pip():67] save pip done
+2022-04-26 16:36:01,554 DEBUG   HandlerThread:8747 [meta.py:probe():247] probe done
+2022-04-26 16:36:01,563 DEBUG   SenderThread:8747 [sender.py:send():232] send: files
+2022-04-26 16:36:01,564 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-04-26 16:36:01,581 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:36:01,586 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:36:01,767 DEBUG   SenderThread:8747 [sender.py:send():232] send: telemetry
+2022-04-26 16:36:01,936 INFO    Thread-11 :8747 [upload_job.py:push():137] Uploaded file /tmp/tmpy1j6e419wandb/21rblw3v-wandb-metadata.json
+2022-04-26 16:36:02,469 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-metadata.json
+2022-04-26 16:36:02,469 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/requirements.txt
+2022-04-26 16:36:02,470 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:36:07,304 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:36:09,315 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:36:16,769 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:36:16,770 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:36:28,383 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/config.yaml
+2022-04-26 16:36:29,826 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:36:31,871 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:36:31,872 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:36:46,967 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:36:46,967 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:37:00,088 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:37:02,082 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:37:02,082 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:37:05,639 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:37:05,641 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:37:05,641 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:37:05,646 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:37:05,678 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:37:05,679 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:37:05,680 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:37:05,703 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:37:06,516 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:37:06,516 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:37:08,521 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:37:12,294 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:37:12,295 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:37:12,295 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:37:12,299 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:37:12,305 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:37:12,306 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:37:12,307 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:37:12,311 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:37:12,537 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:37:14,549 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:37:17,225 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:37:17,226 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:37:30,375 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:37:32,352 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:37:32,353 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:37:47,455 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:37:47,456 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:38:00,686 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:38:02,559 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:38:02,559 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:38:12,947 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:38:12,949 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:38:12,949 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:38:12,951 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:38:12,958 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:38:12,960 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:38:12,960 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:38:12,965 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:38:13,815 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:38:13,816 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:38:17,707 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:38:17,707 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:38:19,474 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:38:19,475 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:38:19,475 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:38:19,477 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:38:19,481 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:38:19,482 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:38:19,483 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:38:19,487 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:38:19,836 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:38:21,843 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:38:30,957 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:38:34,211 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:38:34,212 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:38:49,325 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:38:49,326 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:39:01,216 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:39:04,721 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:39:04,722 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:39:19,213 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:39:19,214 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:39:19,214 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:39:19,224 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:39:19,247 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:39:19,249 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:39:19,249 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:39:19,264 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:39:19,845 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:39:19,846 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:39:20,054 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:39:20,055 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:39:25,878 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:39:25,879 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:39:25,879 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:39:25,884 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:39:25,917 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:39:25,919 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:39:25,920 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:39:25,924 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:39:26,082 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:39:28,087 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:39:31,514 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:39:34,982 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:39:34,983 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:39:50,108 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:39:50,109 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:40:01,810 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:40:05,211 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:40:05,212 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:40:20,385 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:40:20,385 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:40:25,754 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:40:25,755 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:40:25,756 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:40:25,765 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:40:25,796 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:40:25,797 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:40:25,797 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:40:25,802 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:40:26,329 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:40:28,336 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:40:32,095 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:40:32,254 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:40:32,256 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:40:32,256 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:40:32,258 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:40:32,263 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:40:32,265 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:40:32,265 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:40:32,270 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:40:32,350 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:40:34,355 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:40:35,482 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:40:35,483 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:40:50,581 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:40:50,582 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:41:02,422 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:41:05,726 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:41:05,727 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:41:20,856 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:41:20,857 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:41:32,734 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:41:32,771 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:41:32,772 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:41:32,773 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:41:32,776 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:41:32,783 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:41:32,785 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:41:32,785 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:41:32,797 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:41:33,595 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:41:34,598 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:41:35,973 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:41:35,974 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:41:39,375 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:41:39,377 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:41:39,377 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:41:39,383 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:41:39,413 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:41:39,414 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:41:39,414 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:41:39,419 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:41:39,617 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:41:40,621 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:41:51,073 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:41:51,073 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:42:03,021 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:42:06,193 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:42:06,194 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:42:21,304 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:42:21,304 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:42:33,326 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:42:36,402 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:42:36,402 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:42:38,411 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:42:38,412 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:42:38,413 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:42:38,418 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:42:38,447 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:42:38,448 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:42:38,449 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:42:38,454 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:42:38,840 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:42:40,845 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:42:44,951 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:42:44,952 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:42:44,952 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:42:44,953 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:42:44,957 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:42:44,959 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:42:44,959 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:42:44,963 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:42:45,874 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:42:46,880 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:42:51,695 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:42:51,696 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:43:03,614 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:43:07,407 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:43:07,408 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:43:22,511 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:43:22,511 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:43:33,906 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:43:37,651 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:43:37,652 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:43:44,797 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:43:44,798 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:43:44,798 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:43:44,805 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:43:44,833 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:43:44,834 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:43:44,835 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:43:44,839 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:43:45,167 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:43:47,176 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:43:51,241 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:43:51,242 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:43:51,243 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:43:51,248 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:43:51,279 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:43:51,280 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:43:51,281 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:43:51,286 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:43:52,195 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:43:52,196 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:43:52,753 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:43:52,754 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:44:04,220 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:44:07,847 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:44:07,847 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:44:22,976 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:44:22,977 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:44:34,533 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:44:38,125 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:44:38,125 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:44:50,168 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:44:50,169 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:44:50,170 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:44:50,175 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:44:50,202 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:44:50,203 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:44:50,203 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:44:50,207 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:44:50,456 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:44:52,462 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:44:53,299 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:44:53,300 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:44:56,644 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:44:56,645 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:44:56,645 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:44:56,649 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:44:56,652 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:44:56,653 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:44:56,654 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:44:56,659 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:44:57,480 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:44:58,482 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:45:04,798 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:45:08,413 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:45:08,413 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:45:23,538 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:45:23,538 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:45:35,119 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:45:38,694 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:45:38,695 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:45:53,792 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:45:53,792 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:45:55,688 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:45:55,689 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:45:55,690 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:45:55,698 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:45:55,704 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:45:55,725 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:45:55,726 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:45:55,727 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:45:55,731 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:45:56,707 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:46:02,132 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:46:02,133 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:46:02,134 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:46:02,139 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:46:02,174 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:46:02,175 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:46:02,176 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:46:02,181 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:46:02,724 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:46:02,725 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:46:04,736 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:46:05,426 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:46:08,901 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:46:08,902 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:46:24,030 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:46:24,031 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:46:35,722 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:46:39,144 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:46:39,145 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:46:54,259 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:46:54,260 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:47:01,149 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:47:01,150 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:47:01,151 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:47:01,157 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:47:01,183 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:47:01,184 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:47:01,184 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:47:01,201 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:47:01,931 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:47:02,934 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:47:06,002 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:47:07,758 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:47:07,759 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:47:07,760 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:47:07,767 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:47:07,794 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:47:07,795 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:47:07,796 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:47:07,801 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:47:07,949 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:47:08,962 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:47:09,351 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:47:09,352 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:47:24,448 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:47:24,448 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:47:36,289 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:47:39,561 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:47:39,562 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:47:54,661 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:47:54,661 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:48:06,624 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:48:06,631 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:48:06,633 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:48:06,633 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:48:06,634 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:48:06,639 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:48:06,641 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:48:06,641 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:48:06,646 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:48:07,195 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:48:09,200 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:48:09,884 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:48:09,885 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:48:13,073 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:48:13,074 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:48:13,074 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:48:13,076 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:48:13,081 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:48:13,083 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:48:13,083 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:48:13,087 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:48:13,215 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:48:15,229 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:48:24,975 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:48:24,975 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:48:36,901 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:48:40,121 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:48:40,122 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:48:55,232 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:48:55,232 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:49:07,213 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:49:10,343 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:49:10,349 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:49:11,928 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:49:11,929 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:49:11,930 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:49:11,942 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:49:11,964 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:49:11,966 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:49:11,966 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:49:11,970 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:49:12,446 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:49:13,448 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:49:18,519 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:49:18,521 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:49:18,521 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:49:18,522 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:49:18,527 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:49:18,529 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:49:18,530 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:49:18,533 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:49:19,466 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:49:19,467 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:49:25,474 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:49:25,474 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:49:37,473 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:49:40,572 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:49:40,573 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:49:55,684 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:49:55,685 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:50:07,783 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:50:10,798 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:50:10,798 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:50:17,402 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:50:17,407 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:50:17,407 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:50:17,409 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:50:17,414 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:50:17,417 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:50:17,417 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:50:17,424 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:50:17,684 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:50:19,689 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:50:23,834 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:50:23,836 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:50:23,836 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:50:23,841 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:50:23,871 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:50:23,872 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:50:23,873 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:50:23,877 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:50:24,711 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:50:25,712 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:50:25,900 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:50:25,901 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:50:38,108 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:50:41,013 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:50:41,013 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:50:56,557 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:50:56,557 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:51:08,432 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:51:11,668 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:51:11,669 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:51:22,969 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:51:22,970 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:51:22,970 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:51:22,972 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:51:22,977 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:51:22,979 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:51:22,980 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:51:22,983 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:51:23,912 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:51:24,916 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:51:26,886 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:51:26,886 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:51:29,377 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:51:29,383 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:51:29,384 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:51:29,384 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:51:29,391 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:51:29,392 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:51:29,393 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:51:29,397 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:51:29,936 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:51:30,940 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:51:38,718 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:51:41,980 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:51:41,981 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:51:57,078 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:51:57,079 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:52:09,048 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:52:12,186 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:52:12,186 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:52:27,308 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:52:27,308 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:52:28,166 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:52:28,167 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:52:28,168 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:52:28,174 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:52:28,199 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:52:28,203 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:52:28,204 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:52:28,205 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:52:28,209 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:52:29,202 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:52:34,752 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:52:34,753 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:52:34,754 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:52:34,754 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:52:34,760 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:52:34,762 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:52:34,762 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:52:34,767 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:52:35,219 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:52:37,225 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:52:39,368 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:52:42,421 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:52:42,422 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:52:57,527 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:52:57,527 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:53:09,700 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:53:12,635 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:53:12,638 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:53:27,736 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:53:27,736 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:53:33,584 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:53:33,586 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:53:33,586 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:53:33,593 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:53:33,620 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:53:33,621 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:53:33,621 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:53:33,627 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:53:34,449 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:53:35,452 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:53:40,000 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:53:40,030 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:53:40,031 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:53:40,032 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:53:40,033 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:53:40,038 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:53:40,039 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:53:40,040 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:53:40,048 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:53:40,466 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:53:41,470 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:53:42,849 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:53:42,849 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:53:58,098 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:53:58,098 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:54:10,261 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:54:13,218 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:54:13,218 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:54:28,308 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:54:28,309 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:54:38,664 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:54:38,665 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:54:38,666 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:54:38,672 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:54:38,697 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:54:38,699 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:54:38,700 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:54:38,701 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:54:38,705 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:54:39,700 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:54:40,571 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:54:43,420 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:54:43,420 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:54:45,161 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:54:45,162 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:54:45,162 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:54:45,162 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:54:45,168 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:54:45,170 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:54:45,170 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:54:45,174 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:54:45,721 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:54:47,727 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:54:58,574 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:54:58,575 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:55:10,879 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:55:13,691 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:55:13,692 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:55:28,798 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:55:28,798 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:55:41,187 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:55:43,606 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:55:43,607 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:55:43,607 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:55:43,613 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:55:43,639 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:55:43,640 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:55:43,640 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:55:43,645 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:55:43,890 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:55:43,891 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:55:43,941 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:55:45,949 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:55:50,073 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:55:50,074 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:55:50,075 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:55:50,076 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:55:50,085 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:55:50,086 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:55:50,087 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:55:50,091 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:55:50,979 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:55:51,983 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:55:59,034 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:55:59,034 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:56:11,520 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:56:14,149 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:56:14,149 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:56:29,257 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:56:29,258 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:56:41,861 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:56:44,365 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:56:44,366 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:56:48,956 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:56:48,957 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:56:48,958 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:56:48,965 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:56:48,995 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:56:48,997 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:56:48,997 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:56:49,002 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:56:49,218 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:56:52,229 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:56:55,685 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:56:55,686 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:56:55,686 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:56:55,692 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:56:55,722 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:56:55,723 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:56:55,723 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:56:55,729 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:56:56,242 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:56:57,247 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:56:59,473 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:56:59,474 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:57:12,145 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:57:14,573 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:57:14,574 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:57:29,676 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:57:29,677 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:57:42,437 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:57:44,782 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:57:44,783 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:57:54,451 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:57:54,452 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:57:54,452 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:57:54,459 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:57:54,463 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:57:54,487 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:57:54,488 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:57:54,488 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:57:54,493 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:57:55,466 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:57:59,894 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:57:59,894 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:58:01,217 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:58:01,218 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:58:01,219 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:58:01,223 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:58:01,251 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:58:01,252 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:58:01,253 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:58:01,260 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:58:01,483 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:58:03,489 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:58:12,706 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:58:15,013 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:58:15,013 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:58:30,244 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:58:30,245 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:58:43,046 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:58:45,353 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:58:45,354 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:58:59,628 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:58:59,629 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:58:59,629 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:58:59,635 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:58:59,663 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:58:59,664 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:58:59,664 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:58:59,669 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:58:59,719 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:59:00,917 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:59:00,917 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:59:01,724 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:59:06,343 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:59:06,348 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 16:59:06,348 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:59:06,349 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:59:06,355 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:59:06,357 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 16:59:06,358 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 16:59:06,362 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 16:59:06,739 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 16:59:07,742 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 16:59:13,325 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:59:16,129 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:59:16,130 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:59:31,254 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:59:31,254 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 16:59:43,633 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 16:59:46,351 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 16:59:46,351 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:00:01,461 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 17:00:01,461 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:00:05,148 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:00:05,149 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 17:00:05,149 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:00:05,151 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:00:05,157 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:00:05,159 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 17:00:05,159 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:00:05,164 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:00:05,975 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 17:00:05,976 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 17:00:12,019 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:00:12,021 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:00:12,021 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 17:00:12,022 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:00:12,027 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:00:12,028 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 17:00:12,029 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:00:12,038 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:00:12,998 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 17:00:13,959 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 17:00:14,001 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 17:00:16,761 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 17:00:16,761 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:00:31,874 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 17:00:31,875 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:00:44,260 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 17:00:47,001 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 17:00:47,002 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:01:02,101 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 17:01:02,102 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:01:13,052 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:01:13,053 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 17:01:13,054 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:01:13,064 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:01:13,089 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:01:13,090 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 17:01:13,091 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:01:13,095 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:01:13,218 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 17:01:14,221 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 17:01:14,586 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 17:01:17,248 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 17:01:17,249 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:01:21,307 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:01:21,308 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 17:01:21,309 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:01:21,314 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:01:21,346 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:01:21,347 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 17:01:21,348 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:01:21,353 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:01:22,243 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 17:01:22,244 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 17:01:32,397 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 17:01:32,397 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:01:44,917 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 17:01:47,497 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 17:01:47,497 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:02:02,614 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 17:02:02,614 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:02:15,228 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 17:02:17,715 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 17:02:17,716 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:02:21,786 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:02:21,787 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 17:02:21,788 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:02:21,798 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:02:21,827 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:02:21,828 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 17:02:21,829 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:02:21,833 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:02:22,442 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 17:02:24,448 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 17:02:28,517 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:02:28,518 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 17:02:28,519 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:02:28,520 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:02:28,524 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:02:28,526 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 17:02:28,526 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:02:28,530 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:02:29,462 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 17:02:30,466 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 17:02:32,819 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 17:02:32,820 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:02:45,546 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 17:02:47,944 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 17:02:47,944 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:03:03,080 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 17:03:03,081 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:03:15,827 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 17:03:18,189 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 17:03:18,189 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:03:28,285 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:03:28,286 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 17:03:28,286 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:03:28,292 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:03:28,324 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:03:28,326 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 17:03:28,326 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:03:28,330 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:03:28,690 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 17:03:30,695 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 17:03:33,302 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-26 17:03:33,303 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: stop_status
+2022-04-26 17:03:35,149 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:03:35,151 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-26 17:03:35,151 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 17:03:35,152 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:03:35,157 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:03:35,160 DEBUG   SenderThread:8747 [sender.py:send():232] send: history
+2022-04-26 17:03:35,160 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:03:35,165 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:03:35,332 DEBUG   SenderThread:8747 [sender.py:send():232] send: telemetry
+2022-04-26 17:03:35,708 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 17:03:36,711 INFO    Thread-7  :8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 17:03:38,220 DEBUG   SenderThread:8747 [sender.py:send():232] send: exit
+2022-04-26 17:03:38,220 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:03:38,221 INFO    SenderThread:8747 [sender.py:send_exit():368] handling exit code: 0
+2022-04-26 17:03:38,221 INFO    SenderThread:8747 [sender.py:send_exit():370] handling runtime: 1660
+2022-04-26 17:03:38,226 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:03:38,227 INFO    SenderThread:8747 [sender.py:send_exit():376] send defer
+2022-04-26 17:03:38,234 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:03:38,234 INFO    HandlerThread:8747 [handler.py:handle_request_defer():164] handle defer: 0
+2022-04-26 17:03:38,392 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:03:38,392 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:03:38,393 INFO    SenderThread:8747 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-04-26 17:03:38,394 INFO    SenderThread:8747 [sender.py:transition_state():389] send defer: 1
+2022-04-26 17:03:38,394 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:03:38,395 INFO    HandlerThread:8747 [handler.py:handle_request_defer():164] handle defer: 1
+2022-04-26 17:03:38,404 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:03:38,405 INFO    SenderThread:8747 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-04-26 17:03:38,405 INFO    SenderThread:8747 [sender.py:transition_state():389] send defer: 2
+2022-04-26 17:03:38,405 DEBUG   SenderThread:8747 [sender.py:send():232] send: stats
+2022-04-26 17:03:38,406 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:03:38,406 INFO    HandlerThread:8747 [handler.py:handle_request_defer():164] handle defer: 2
+2022-04-26 17:03:38,407 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:03:38,407 INFO    SenderThread:8747 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-04-26 17:03:38,407 INFO    SenderThread:8747 [sender.py:transition_state():389] send defer: 3
+2022-04-26 17:03:38,408 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:03:38,408 INFO    HandlerThread:8747 [handler.py:handle_request_defer():164] handle defer: 3
+2022-04-26 17:03:38,408 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:03:38,409 INFO    SenderThread:8747 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-04-26 17:03:38,409 INFO    SenderThread:8747 [sender.py:transition_state():389] send defer: 4
+2022-04-26 17:03:38,409 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:03:38,409 INFO    HandlerThread:8747 [handler.py:handle_request_defer():164] handle defer: 4
+2022-04-26 17:03:38,410 DEBUG   SenderThread:8747 [sender.py:send():232] send: summary
+2022-04-26 17:03:38,414 INFO    SenderThread:8747 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-26 17:03:38,416 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:03:38,416 INFO    SenderThread:8747 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-04-26 17:03:38,416 INFO    SenderThread:8747 [sender.py:transition_state():389] send defer: 5
+2022-04-26 17:03:38,417 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:03:38,417 INFO    HandlerThread:8747 [handler.py:handle_request_defer():164] handle defer: 5
+2022-04-26 17:03:38,417 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:03:38,418 INFO    SenderThread:8747 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-04-26 17:03:38,418 INFO    SenderThread:8747 [sender.py:transition_state():389] send defer: 6
+2022-04-26 17:03:38,418 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:03:38,419 INFO    HandlerThread:8747 [handler.py:handle_request_defer():164] handle defer: 6
+2022-04-26 17:03:38,419 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:03:38,419 INFO    SenderThread:8747 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-04-26 17:03:38,419 INFO    SenderThread:8747 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-04-26 17:03:38,494 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:03:38,715 INFO    SenderThread:8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/config.yaml
+2022-04-26 17:03:38,716 INFO    SenderThread:8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 17:03:38,717 INFO    SenderThread:8747 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 17:03:38,718 INFO    SenderThread:8747 [dir_watcher.py:finish():309] scan: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files
+2022-04-26 17:03:38,719 INFO    SenderThread:8747 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/config.yaml config.yaml
+2022-04-26 17:03:38,720 INFO    SenderThread:8747 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json wandb-summary.json
+2022-04-26 17:03:38,725 INFO    SenderThread:8747 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/requirements.txt requirements.txt
+2022-04-26 17:03:38,730 INFO    SenderThread:8747 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-metadata.json wandb-metadata.json
+2022-04-26 17:03:38,730 INFO    SenderThread:8747 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log output.log
+2022-04-26 17:03:38,732 INFO    SenderThread:8747 [sender.py:transition_state():389] send defer: 7
+2022-04-26 17:03:38,733 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:03:38,734 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:03:38,735 INFO    HandlerThread:8747 [handler.py:handle_request_defer():164] handle defer: 7
+2022-04-26 17:03:38,735 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:03:38,735 INFO    SenderThread:8747 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-04-26 17:03:38,735 INFO    SenderThread:8747 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-26 17:03:38,838 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:03:38,838 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:03:38,941 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:03:38,942 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:03:39,043 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:03:39,044 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:03:39,106 INFO    Thread-13 :8747 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/wandb-summary.json
+2022-04-26 17:03:39,109 INFO    Thread-12 :8747 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/config.yaml
+2022-04-26 17:03:39,134 INFO    Thread-15 :8747 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/output.log
+2022-04-26 17:03:39,138 INFO    Thread-14 :8747 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/files/requirements.txt
+2022-04-26 17:03:39,145 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:03:39,145 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:03:39,247 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:03:39,247 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:03:39,339 INFO    Thread-6  :8747 [sender.py:transition_state():389] send defer: 8
+2022-04-26 17:03:39,339 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:03:39,339 INFO    HandlerThread:8747 [handler.py:handle_request_defer():164] handle defer: 8
+2022-04-26 17:03:39,340 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:03:39,340 INFO    SenderThread:8747 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-04-26 17:03:39,349 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:03:39,562 INFO    SenderThread:8747 [sender.py:transition_state():389] send defer: 9
+2022-04-26 17:03:39,562 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:03:39,562 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:03:39,563 INFO    HandlerThread:8747 [handler.py:handle_request_defer():164] handle defer: 9
+2022-04-26 17:03:39,563 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:03:39,564 INFO    SenderThread:8747 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-04-26 17:03:39,564 INFO    SenderThread:8747 [sender.py:transition_state():389] send defer: 10
+2022-04-26 17:03:39,565 DEBUG   SenderThread:8747 [sender.py:send():232] send: final
+2022-04-26 17:03:39,565 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: defer
+2022-04-26 17:03:39,566 DEBUG   SenderThread:8747 [sender.py:send():232] send: footer
+2022-04-26 17:03:39,566 INFO    HandlerThread:8747 [handler.py:handle_request_defer():164] handle defer: 10
+2022-04-26 17:03:39,567 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: defer
+2022-04-26 17:03:39,567 INFO    SenderThread:8747 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-04-26 17:03:39,664 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-26 17:03:39,665 DEBUG   SenderThread:8747 [sender.py:send_request():246] send_request: poll_exit
+2022-04-26 17:03:39,665 INFO    SenderThread:8747 [file_pusher.py:join():150] waiting for file pusher
+2022-04-26 17:03:39,899 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: sampled_history
+2022-04-26 17:03:39,901 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: get_summary
+2022-04-26 17:03:39,902 DEBUG   HandlerThread:8747 [handler.py:handle_request():141] handle_request: shutdown
+2022-04-26 17:03:39,903 INFO    HandlerThread:8747 [handler.py:finish():806] shutting down handler
+2022-04-26 17:03:40,565 INFO    WriterThread:8747 [datastore.py:close():279] close: /content/drive/MyDrive/Scania_Thesis/ResNet/wandb/run-20220426_163556-2368t6h7/run-2368t6h7.wandb
+2022-04-26 17:03:40,797 INFO    SenderThread:8747 [sender.py:finish():1106] shutting down sender
+2022-04-26 17:03:40,797 INFO    SenderThread:8747 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-26 17:03:40,798 INFO    SenderThread:8747 [file_pusher.py:join():150] waiting for file pusher
+2022-04-26 17:03:40,801 INFO    MainThread:8747 [internal.py:handle_exit():80] Internal process exited

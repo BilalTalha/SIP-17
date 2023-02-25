@@ -1,0 +1,104 @@
+/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py:490: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  cpuset_checked))
+Epoch 0/24
+----------
+train Loss: 1.6250 Acc: 0.4914
+val Loss: 0.8300 Acc: 0.7458
+Epoch 1/24
+----------
+train Loss: 1.3829 Acc: 0.5728
+val Loss: 0.6981 Acc: 0.7752
+Epoch 2/24
+----------
+train Loss: 1.3442 Acc: 0.5843
+val Loss: 0.6322 Acc: 0.7981
+Epoch 3/24
+----------
+train Loss: 1.3254 Acc: 0.5976
+val Loss: 0.8220 Acc: 0.7552
+Epoch 4/24
+----------
+train Loss: 1.3252 Acc: 0.5959
+val Loss: 0.7277 Acc: 0.7710
+Epoch 5/24
+----------
+train Loss: 1.3165 Acc: 0.6008
+val Loss: 0.7221 Acc: 0.7785
+Epoch 6/24
+----------
+train Loss: 1.3025 Acc: 0.6056
+val Loss: 0.7508 Acc: 0.7744
+Epoch 7/24
+----------
+train Loss: 1.1499 Acc: 0.6454
+val Loss: 0.6470 Acc: 0.7894
+Epoch 8/24
+----------
+train Loss: 1.1414 Acc: 0.6432
+val Loss: 0.6426 Acc: 0.7906
+Epoch 9/24
+----------
+train Loss: 1.1381 Acc: 0.6437
+val Loss: 0.6250 Acc: 0.7998
+Epoch 10/24
+----------
+train Loss: 1.1254 Acc: 0.6507
+val Loss: 0.6103 Acc: 0.8042
+Epoch 11/24
+----------
+train Loss: 1.1295 Acc: 0.6422
+val Loss: 0.6169 Acc: 0.7985
+Epoch 12/24
+----------
+train Loss: 1.1206 Acc: 0.6499
+val Loss: 0.6154 Acc: 0.7988
+Epoch 13/24
+----------
+train Loss: 1.1231 Acc: 0.6504
+val Loss: 0.6066 Acc: 0.7933
+Epoch 14/24
+----------
+train Loss: 1.0982 Acc: 0.6547
+val Loss: 0.6338 Acc: 0.7956
+Epoch 15/24
+----------
+train Loss: 1.1041 Acc: 0.6554
+val Loss: 0.5886 Acc: 0.8096
+Epoch 16/24
+----------
+train Loss: 1.1146 Acc: 0.6542
+val Loss: 0.6327 Acc: 0.7910
+Epoch 17/24
+----------
+train Loss: 1.1157 Acc: 0.6518
+val Loss: 0.6022 Acc: 0.8071
+Epoch 18/24
+----------
+train Loss: 1.1028 Acc: 0.6528
+val Loss: 0.6267 Acc: 0.7956
+Epoch 19/24
+----------
+train Loss: 1.1043 Acc: 0.6534
+val Loss: 0.5901 Acc: 0.8054
+Epoch 20/24
+----------
+train Loss: 1.1150 Acc: 0.6497
+val Loss: 0.6118 Acc: 0.7958
+Epoch 21/24
+----------
+train Loss: 1.0922 Acc: 0.6575
+val Loss: 0.6112 Acc: 0.8015
+Epoch 22/24
+----------
+train Loss: 1.1043 Acc: 0.6548
+val Loss: 0.6185 Acc: 0.8008
+Epoch 23/24
+----------
+train Loss: 1.1092 Acc: 0.6504
+val Loss: 0.6452 Acc: 0.7890
+Epoch 24/24
+----------
+train Loss: 1.1089 Acc: 0.6542
+val Loss: 0.6147 Acc: 0.7996
+Training complete in 120m 43s
+Best val Acc: 0.809583
