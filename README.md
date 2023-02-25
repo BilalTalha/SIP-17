@@ -97,6 +97,9 @@ To evaluate a model, please run the following command:
 
 Choose <code>--weights</code> as the path to the saved weights file. Note: put test images in a folder named 'val'.
 
+## Pretrained Weights
+Pretrained weights for each use case and network are coming soon!
+
 ## Credits & How to Cite
 If you use this dataset in your research, please cite our paper: 
 
