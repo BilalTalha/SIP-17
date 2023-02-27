@@ -1,10 +1,9 @@
 # ISD: Industry Synthetic Dataset for Part Classification
 
 ## Introduction
-  ISD: Industry Synthetic Dataset is designed for the Sim-to-Real challenge in part classification. It contains 17 objects representing six typical industry use cases. Use cases 1-4 require the classification of isolated industrial parts, use cases 5 and 6 require the classification of assembled parts.  
-  ff
-  For each objects, we generated three kinds of images: Syn_O, synthetic images without random backgrounds and post-processing; Syn_R, synthetic images with random backgrounds and post-processing; and Real, images captured from cameras in real industrial scenarios. For each objects we generated 1200 synthetic images for training and 300 synthetic images for validationm in total 33k images for both Syn_O and Syn_R. For testing, we captured 566 real images from various industrial scenarios. Our dataset is available at <a href="https://dafd.com/">dataset</a>.     
-  We benchmark the performance of the dataset using five different state-of-the-art models, including ResNet, EfficientNet, ConvNext, VIT, and DINO. We trained the model only on synthetic data and tested on real data.
+  &nbsp;&nbsp;ISD: Industry Synthetic Dataset is designed for the Sim-to-Real challenge in part classification. It contains 17 objects representing six typical industry use cases. Use cases 1-4 require the classification of isolated industrial parts, use cases 5 and 6 require the classification of assembled parts.  
+  &nbsp;&nbsp;For each objects, we generated three kinds of images: Syn_O, synthetic images without random backgrounds and post-processing; Syn_R, synthetic images with random backgrounds and post-processing; and Real, images captured from cameras in real industrial scenarios. For each objects we generated 1200 synthetic images for training and 300 synthetic images for validationm in total 33k images for both Syn_O and Syn_R. For testing, we captured 566 real images from various industrial scenarios. Our dataset is available at <a href="https://dafd.com/">dataset</a>.     
+  &nbsp;&nbsp;We benchmark the performance of the dataset using five different state-of-the-art models, including ResNet, EfficientNet, ConvNext, VIT, and DINO. We trained the model only on synthetic data and tested on real data.
 ![PDF Image](/Image/data.jpg)
 
 ## Dataset
