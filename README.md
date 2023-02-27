@@ -84,7 +84,9 @@ install and login to wandb:
 ## Training
 To train a model, please run the following command:
 
-<code>python train.py --data_path /path/to/Data --output_dir "/path/to/checkpoint.pth"</code>
+```
+python train.py --data_path /path/to/Data --output_dir "/path/to/checkpoint.pth"
+```
 
 
 Choose `--output_dir` as the path and name you want to choose for the weights file.
@@ -92,7 +94,9 @@ Choose `--output_dir` as the path and name you want to choose for the weights fi
 ## Testing/Evaluation
 To evaluate a model, please run the following command:
 
-<code>python test.py --data_path /path/to/Data --weights "/path/to/checkpoint.pth"</code>
+```
+python test.py --data_path /path/to/Data --weights "/path/to/checkpoint.pth"
+```
 
 
 Choose <code>--weights</code> as the path to the saved weights file. Note: put test images in a folder named 'val'.
