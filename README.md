@@ -81,23 +81,21 @@ install and login to wandb:
 
 <code>wandb login</code>
 
-## Training
-To train a model, please run the following command:
+## Training on ResNet/EfficientNet/ConvNext/VIT
+To train a superviseed learning model, please run the following command:
 
 ```
 python train.py --data_path /path/to/Data --output_dir "/path/to/checkpoint.pth"
 ```
 
-
 Choose `--output_dir` as the path and name you want to choose for the weights file.
 
-## Testing/Evaluation
+## Testing/Evaluation on ResNet/EfficientNet/ConvNext/VIT
 To evaluate a model, please run the following command:
 
 ```
 python test.py --data_path /path/to/Data --weights "/path/to/checkpoint.pth"
 ```
-
 
 Choose <code>--weights</code> as the path to the saved weights file. Note: put test images in a folder named 'val'.
 
