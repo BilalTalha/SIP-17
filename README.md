@@ -72,10 +72,10 @@ We assume your data is structured with the following format:
 </ul>
 
 
-To use the dataset, please download it from https://dafd.com and structure your data in the above format.
+To use the dataset, please download the <a href="https://dafd.com/">dataset</a>.
 
 ## wandb login
-nstall and login to wandb:
+install and login to wandb:
 
 <code>pip install wandb</code>
 
