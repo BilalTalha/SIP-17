@@ -122,9 +122,14 @@ Note: put test images in folder with name 'val'
 Pretrained weights for each use case and network are coming soon!
 
 ## Credits & How to Cite
-If you use this dataset in your research, please cite our paper: 
+If you use this dataset in your research, please cite our paper:
 
-[Paper citation information here]
+[PAPER CITATION HERE]
+
+The DINO code used in this project is based on the original implementation [1] by Caron et al. [2]. 
+
+[1] https://github.com/facebookresearch/dino
+[2] Caron, M., Misra, I., Mairal, J., Goyal, P., Bojanowski, P., & Joulin, A. (2021). Unsupervised learning of visual features by contrasting cluster assignments. arXiv preprint arXiv:2104.13963.
 
 ## License
 This project is licensed under the CC0-1.0 License - see the LICENSE.md file for details.
