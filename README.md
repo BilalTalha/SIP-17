@@ -129,7 +129,8 @@ If you use this dataset in your research, please cite our paper:
 The DINO code used in this project is based on the original implementation [1] by Caron et al. [2]. 
 
 [1] https://github.com/facebookresearch/dino
-[2] Caron, M., Misra, I., Mairal, J., Goyal, P., Bojanowski, P., & Joulin, A. (2021). Unsupervised learning of visual features by contrasting cluster assignments. arXiv preprint arXiv:2104.13963.
+
+[2] Mathilde Caron, Hugo Touvron, Ishan Misra, Hervé Jégou, Julien Mairal, Piotr Bojanowski, and Armand Joulin. Emerging properties in self-supervised vision transformers. In Proceedings of the IEEE/CVF international conference on computer vision, pages 9650–9660, 2021.
 
 ## License
 This project is licensed under the CC0-1.0 License - see the LICENSE.md file for details.
