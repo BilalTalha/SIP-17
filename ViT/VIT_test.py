@@ -42,13 +42,7 @@ args = parser.parse_args()
 # Data augmentation and normalization for training
 # Just normalization for validation
 data_transforms = {
-    'train': transforms.Compose([
-        transforms.RandomResizedCrop(224),
-        transforms.RandomHorizontalFlip(),
-        transforms.ToTensor(),
-        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
-    ]),
-    'val': transforms.Compose([
+    'test': transforms.Compose([
         transforms.Resize(256),
         transforms.CenterCrop(224),
         transforms.ToTensor(),
@@ -60,12 +54,12 @@ data_dir = args.data_path
 
 image_datasets = {x: datasets.ImageFolder(os.path.join(data_dir, x),
                                           data_transforms[x])
-                  for x in ['train', 'val']}
+                  for x in ['test']}
 dataloaders = {x: torch.utils.data.DataLoader(image_datasets[x], batch_size=4,
                                              shuffle=True, num_workers=4)
-              for x in ['train', 'val']}
-dataset_sizes = {x: len(image_datasets[x]) for x in ['train', 'val']}
-class_names = image_datasets['train'].classes
+              for x in ['test']}
+dataset_sizes = {x: len(image_datasets[x]) for x in ['test']}
+class_names = image_datasets['test'].classes
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -77,7 +71,7 @@ def test_model(model):
     list_pred = np.array([])
     list_target = np.array([])
     with torch.no_grad():
-        for i, (inputs, labels) in enumerate(dataloaders['val']):
+        for i, (inputs, labels) in enumerate(dataloaders['test']):
             inputs = inputs.to(device)
             target = labels.to(device)
 
@@ -96,8 +90,8 @@ def test_model(model):
             (a,_,_,_)=inputs.size()
             for i in range(0,a):
               list_im.append(inputs[i])
-    #confusion matrix
-    wandb.sklearn.plot_confusion_matrix(list_target, list_pred, ["Airgun", "BlackButton","CouplingHalf","Cross","Electricity12","Fork1","Fork2","Fork3","Gear1","Gear2","Hammer","Hook","Pin1","Pin2","Pinion","Plug"])
+    #confusion matrix, update the class name if needed
+    wandb.sklearn.plot_confusion_matrix(list_target, list_pred, ["Airgun","CouplingHalf","Cross","Electricity12","Fork1","Fork2","Fork3","Gear1","Gear2","Hammer","Hook","Pin1","Pin2","Pinion","Plug"])
     #wandb.log({"conf_mat" : wandb.plot.confusion_matrix(probs=None,preds=list_pred, y_true=list_target,class_names=["Airgun", "BlackButton","CouplingHalf","Cross","Electricity12","Fork1","Fork2","Fork3","Gear1","Gear2","Hammer","Hook","Pin1","Pin2","Pinion","Plug"])})
     
     #per class accuracy table
@@ -105,7 +99,7 @@ def test_model(model):
     cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
     matrix = cm.diagonal()
     tbl2 = wandb.Table(columns=["class", "Accuracy"])
-    classes = ["Airgun", "BlackButton","CouplingHalf","Cross","Electricity12","Fork1","Fork2","Fork3","Gear1","Gear2","Hammer","Hook","Pin1","Pin2","Pinion","Plug"]
+    classes = ["Airgun","CouplingHalf","Cross","Electricity12","Fork1","Fork2","Fork3","Gear1","Gear2","Hammer","Hook","Pin1","Pin2","Pinion","Plug"]
     accuracies = matrix
     
     #map index to classes 
@@ -132,7 +126,7 @@ for param in model_ft.parameters():
 #print(model_ft)
 # Here the size of each output sample is set to 2.
 # Alternatively, it can be generalized to nn.Linear(num_ftrs, len(class_names)).
-model_ft.heads.head = nn.Linear(in_features=768, out_features=16, bias=True)
+model_ft.heads.head = nn.Linear(in_features=768, out_features=15, bias=True)
 for param in model_ft.heads.head.parameters():
     param.requires_grad = True
 model_ft = model_ft.to(device)
