@@ -127,7 +127,7 @@ for param in model_ft.parameters():
     param.requires_grad = False
 # Here the size of each output sample is set to 2.
 # Alternatively, it can be generalized to nn.Linear(num_ftrs, len(class_names)).
-model_ft.classifier[2] = nn.Linear(in_features=768, out_features=16)
+model_ft.classifier[2] = nn.Linear(in_features=768, out_features=15)
 for param in model_ft.classifier[2].parameters():
     param.requires_grad = True
 model_ft = model_ft.to(device)
