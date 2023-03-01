@@ -144,7 +144,7 @@ for param in model_ft.parameters():
 num_ftrs = model_ft.fc.in_features
 # Here the size of each output sample is set to 2.
 # Alternatively, it can be generalized to nn.Linear(num_ftrs, len(class_names)).
-model_ft.fc = nn.Linear(num_ftrs, 16)
+model_ft.fc = nn.Linear(num_ftrs, 15)
 for param in model_ft.fc.parameters():
     param.requires_grad = True
 model_ft = model_ft.to(device)
