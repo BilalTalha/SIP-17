@@ -144,7 +144,7 @@ for param in model_ft.parameters():
 #print(model_ft)
 # Here the size of each output sample is set to 2.
 # Alternatively, it can be generalized to nn.Linear(num_ftrs, len(class_names)).
-model_ft.heads.head = nn.Linear(in_features=768, out_features=16, bias=True)
+model_ft.heads.head = nn.Linear(in_features=768, out_features=15, bias=True)
 for param in model_ft.heads.head.parameters():
     param.requires_grad = True
 model_ft = model_ft.to(device)
