@@ -1,13 +1,13 @@
 # Towards Sim-to-Real Industrial Parts Classification with Synthetic Dataset
 
 ## Introduction
-The Synthetic Industrial Parts dataset (SIP-17) is designed for the Sim-to-Real challenge in part classification.  
+The Synthetic Industrial Parts dataset (SIP-17) is designed for the Sim-to-Real challenge in Industrial Parts Classification.  
   
 It comprises 17 objects that represent six typical industry use cases. The first four use cases require the classification of isolated parts and the remaining two require the classification of assembled parts.  
   
 For each objects, we provided three types of images: Syn_O, synthetic images without random backgrounds and post-processing; Syn_R, synthetic images with random backgrounds and post-processing; and Real, images captured from cameras in real industrial scenarios.  
   
-To facilitate model training and validation, we generated 1,200 synthetic images for each object for training and 300 synthetic images for validation. In total, we have created 33,000 images for both Syn_O and Syn_R. For testing, we captured 566 real images from various industrial scenarios. Our dataset is available at <a href="https://dafd.com/">dataset</a>.  
+To facilitate model training and validation, we generated 1,200 synthetic images for each object for training and 300 synthetic images for validation. In total, we have created 33,000 images for both Syn_O and Syn_R. For testing, we captured 566 real images from various industrial scenarios. Our dataset is available at <a href="https://www.kaggle.com/datasets/mandymm/synthetic-industrial-parts-dataset-sip-17">dataset</a>.  
   
 To evaluate the performance of the dataset, we benchmarked it using five state-of-the-art models, including ResNet, EfficientNet, ConvNext, VIT, and DINO. Notably, we trained the models only on synthetic data and tested them on real data.
 ![PDF Image](/Image/data.jpg)
@@ -80,7 +80,7 @@ We assume your data is structured with the following format:
 </ul>
 
 
-To use the dataset, please download the <a href="https://dafd.com/">dataset</a>.
+To use the dataset, please download the <a href="https://www.kaggle.com/datasets/mandymm/synthetic-industrial-parts-dataset-sip-17">dataset</a>.
 
 ## wandb login
 install and login to wandb:
