@@ -10,7 +10,7 @@ For each objects, we provided three types of images: Syn_O, synthetic images wit
 To facilitate model training and validation, we generated 1,200 synthetic images for each object for training and 300 synthetic images for validation. In total, we have created 33,000 images for both Syn_O and Syn_R. For testing, we captured 566 real images from various industrial scenarios. Our dataset is available at <a href="https://www.kaggle.com/datasets/mandymm/synthetic-industrial-parts-dataset-sip-17">dataset</a>.  
   
 To evaluate the performance of the dataset, we benchmarked it using five state-of-the-art models, including ResNet, EfficientNet, ConvNext, VIT, and DINO. Notably, we trained the models only on synthetic data and tested them on real data.
-![PDF Image](/Image/data.jpg)
+![PDF Image](/Image/image_23.jpg)
 
 ## Dataset
 We assume your data is structured with the following format:
