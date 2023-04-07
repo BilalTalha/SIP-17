@@ -1,7 +1,7 @@
 # Towards Sim-to-Real Industrial Parts Classification with Synthetic Dataset
 
 ## Introduction
-The Synthetic Industrial Parts dataset (SIP-17) is designed for the Sim-to-Real challenge in Industrial Parts Classification.  
+The **Synthetic Industrial Parts dataset (SIP-17)** is designed for the Sim-to-Real challenge in Industrial Parts Classification.  
   
 It comprises 17 objects that represent six typical industry use cases. The first four use cases require the classification of isolated parts and the remaining two require the classification of assembled parts.  
   
