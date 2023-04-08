@@ -82,6 +82,9 @@ We assume your data is structured with the following format:
 
 To use the dataset, please download the <a href="https://www.kaggle.com/datasets/mandymm/synthetic-industrial-parts-dataset-sip-17">dataset</a>.
 
+## Dependencies
+This codebase has been developed with python version 3.6, PyTorch version 1.7.1, CUDA 11.0 and torchvision 0.8.2.
+
 ## wandb login
 install and login to wandb:
 
