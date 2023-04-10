@@ -82,8 +82,10 @@ We assume your data is structured with the following format:
 
 To use the dataset, please download the <a href="https://www.kaggle.com/datasets/mandymm/synthetic-industrial-parts-dataset-sip-17">dataset</a>.
 
-## Dependencies
-This codebase has been developed with python version 3.6, PyTorch version 1.7.1, CUDA 11.0 and torchvision 0.8.2.
+## Dependencies  
+To train and evaluate on the ResNet/EfficientNet/ConvNext/VIT models, we developed the code with python version 3.8, pytorch 1.12.1, torchvision 0.13.1, and CUDA 11.0+.  
+  
+To train and evaluate on the DINO model, we follow the dependancies from the original DINO github reposity, use python version 3.6, pytorch 1.7.1, torchvision 0.8.2, and CUDA 11.0+.  
 
 ## wandb login
 install and login to wandb:
