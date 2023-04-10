@@ -85,7 +85,7 @@ To use the dataset, please download the <a href="https://www.kaggle.com/datasets
 ## Dependencies  
 To train and evaluate on the ResNet/EfficientNet/ConvNext/VIT models, we developed the code with python version 3.8, pytorch 1.12.1, torchvision 0.13.1, and CUDA 11.0+.  
   
-To train and evaluate on the DINO model, we follow the dependancies from the original DINO github reposity, use python version 3.6, pytorch 1.7.1, torchvision 0.8.2, and CUDA 11.0+.  
+To train and evaluate on the DINO model, we follow the dependancies from the original DINO github reposity, used python version 3.6, pytorch 1.7.1, torchvision 0.8.2, and CUDA 11.0+.  
 
 ## wandb login
 install and login to wandb:
