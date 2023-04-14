@@ -133,16 +133,22 @@ Note: put test images in folder with name 'val'
 ## Pretrained Weights
 Pretrained weights for each use case and network are coming soon!
 
+## Acknowledgement  
+Acknowledgement
+The DINO code used in this project is based on the original implementation from the [DINO](https://github.com/facebookresearch/dino) repository. 
+
 ## Credits & How to Cite
-If you use this dataset in your research, please cite our paper:
-
-[PAPER CITATION HERE] to appear
-
-The DINO code used in this project is based on the original implementation [1] by Caron et al. [2]. 
-
-[1] https://github.com/facebookresearch/dino
-
-[2] Mathilde Caron, Hugo Touvron, Ishan Misra, Hervé Jégou, Julien Mairal, Piotr Bojanowski, and Armand Joulin. Emerging properties in self-supervised vision transformers. In Proceedings of the IEEE/CVF international conference on computer vision, pages 9650–9660, 2021.
+If you use this dataset in your research, please cite our paper (to appear):
+'''
+@InProceedings{Zhu_2023_CVPR,
+    author    = {Xiaomeng Zhu, Talha Bilal, Pär Mårtensson, Lars Hanson, Mårten Björkman, Atsuto Maki},
+    title     = {Towards Sim-to-Real Industrial Parts Classification with Synthetic Dataset},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023}
+    
+To appear
+'''
 
 ## License
 This project is licensed under the CC0-1.0 License - see the LICENSE.md file for details.
