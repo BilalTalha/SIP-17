@@ -131,15 +131,18 @@ python eval_linear.py --evaluate --arch vit_small --patch_size 16 --batch_size_p
 Note: put test images in folder with name 'val'
 
 ## Pretrained Weights
-Pretrained weights for each use case and network are coming soon!
+Watch this section...
 
 ## Acknowledgement  
-Acknowledgement
 The DINO code used in this project is based on the original implementation from the [DINO](https://github.com/facebookresearch/dino) repository. 
+
+## License
+This project is licensed under the CC0-1.0 License - see the LICENSE.md file for details.
 
 ## Credits & How to Cite
 If you use this dataset in your research, please cite our paper (to appear):
-'''
+
+```
 @InProceedings{Zhu_2023_CVPR,
     author    = {Xiaomeng Zhu, Talha Bilal, Pär Mårtensson, Lars Hanson, Mårten Björkman, Atsuto Maki},
     title     = {Towards Sim-to-Real Industrial Parts Classification with Synthetic Dataset},
@@ -148,8 +151,6 @@ If you use this dataset in your research, please cite our paper (to appear):
     year      = {2023}
     
 To appear
-'''
+```
 
-## License
-This project is licensed under the CC0-1.0 License - see the LICENSE.md file for details.
 
