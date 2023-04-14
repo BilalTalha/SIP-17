@@ -136,7 +136,7 @@ Pretrained weights for each use case and network are coming soon!
 ## Credits & How to Cite
 If you use this dataset in your research, please cite our paper:
 
-[PAPER CITATION HERE]
+[PAPER CITATION HERE] to appear
 
 The DINO code used in this project is based on the original implementation [1] by Caron et al. [2]. 
 
