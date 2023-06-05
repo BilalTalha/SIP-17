@@ -1,6 +1,10 @@
 # Towards Sim-to-Real Industrial Parts Classification with Synthetic Dataset
 
-## Introduction
+## Introduction  
+This repo contains the source code and dataset for our CVPR 2023 workshop paper:  
+<a href="https://openaccess.thecvf.com/content/CVPR2023W/VISION/html/Zhu_Towards_Sim-to-Real_Industrial_Parts_Classification_With_Synthetic_Dataset_CVPRW_2023_paper.html"> Towards Sim-to-Real Industrial Parts Classification With Synthetic Dataset </a>  
+CVRP 2023, Workshop on Vision-Based Industrial Inspection  
+  
 The **Synthetic Industrial Parts dataset (SIP-17)** is designed for the Sim-to-Real challenge in Industrial Parts Classification.  
   
 It comprises 17 objects that represent six typical industry use cases. The first four use cases require the classification of isolated parts and the remaining two require the classification of assembled parts.  
@@ -140,7 +144,7 @@ The DINO code used in this project is based on the original implementation from 
 This project is licensed under the CC0-1.0 License - see the LICENSE.md file for details.
 
 ## Credits & How to Cite
-If you use this dataset in your research, please cite our <b href="https://openaccess.thecvf.com/content/CVPR2023W/VISION/html/Zhu_Towards_Sim-to-Real_Industrial_Parts_Classification_With_Synthetic_Dataset_CVPRW_2023_paper.html">paper</b>
+If you use this dataset in your research, please cite our paper.   
 
 ```
 @InProceedings{Zhu_2023_CVPR,
