@@ -140,17 +140,17 @@ The DINO code used in this project is based on the original implementation from 
 This project is licensed under the CC0-1.0 License - see the LICENSE.md file for details.
 
 ## Credits & How to Cite
-If you use this dataset in your research, please cite our paper (to appear):
+If you use this dataset in your research, please cite our <b href="https://openaccess.thecvf.com/content/CVPR2023W/VISION/html/Zhu_Towards_Sim-to-Real_Industrial_Parts_Classification_With_Synthetic_Dataset_CVPRW_2023_paper.html">paper</b>
 
 ```
 @InProceedings{Zhu_2023_CVPR,
-    author    = {Xiaomeng Zhu, Talha Bilal, Pär Mårtensson, Lars Hanson, Mårten Björkman, Atsuto Maki},
-    title     = {Towards Sim-to-Real Industrial Parts Classification with Synthetic Dataset},
+    author    = {Zhu, Xiaomeng and Bilal, Talha and M\r{a}rtensson, P\"ar and Hanson, Lars and Bj\"orkman, M\r{a}rten and Maki, Atsuto},
+    title     = {Towards Sim-to-Real Industrial Parts Classification With Synthetic Dataset},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
     month     = {June},
-    year      = {2023}
-    
-To appear
+    year      = {2023},
+    pages     = {4453-4462}
+}
 ```
 
 
