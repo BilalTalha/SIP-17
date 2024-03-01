@@ -91,6 +91,8 @@ To train and evaluate on the ResNet/EfficientNet/ConvNext/VIT models, we develop
   
 To train and evaluate on the DINO model, we follow the dependancies from the original DINO github reposity, used python version 3.6, pytorch 1.7.1, torchvision 0.8.2, and CUDA 11.0+.  
 
+Please also install pandas and matplotlib
+
 ## wandb login
 install and login to wandb:
 
