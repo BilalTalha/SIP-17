@@ -91,6 +91,8 @@ To train and evaluate on the ResNet/EfficientNet/ConvNext/VIT models, we develop
   
 To train and evaluate on the DINO model, we follow the dependancies from the original DINO github reposity, used python version 3.6, pytorch 1.7.1, torchvision 0.8.2, and CUDA 11.0+.  
 
+Please also install pandas, sklean, and matplotlib.
+
 ## wandb login
 install and login to wandb:
 
@@ -102,10 +104,11 @@ install and login to wandb:
 To train a superviseed learning model, please run the following command:
 
 ```
-python train.py --data_path /path/to/Data --output_dir "/path/to/checkpoint.pth"
+python train.py --data_path /path/to/Data --output_dir "/path/to/checkpoint.pth --epochs 25 --lr 0.001"
 ```
 
-Choose `--output_dir` as the path and name you want to choose for the weights file.
+Choose `--output_dir` as the path and name you want to choose for the weights file.  
+Choose `--epochs` (default is 25), `--lr` (default is 0.001), `--momentum` (default is 0.9), `--step_size` (default is 7), `--gamma` (default is 0.1).  
 
 ## Testing/Evaluation on ResNet/EfficientNet/ConvNext/VIT
 To evaluate a model, please run the following command:
