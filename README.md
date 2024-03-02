@@ -107,8 +107,8 @@ To train a superviseed learning model, please run the following command:
 python train.py --data_path /path/to/Data --output_dir "/path/to/checkpoint.pth --epochs 25 --lr 0.001"
 ```
 
-Choose `--output_dir` as the path and name you want to choose for the weights file.
-Choose `--epochs` (default is 25), `--lr` (default is 0.001), `--momentum` (default is 0.9), `--step_size` (default is 7), `--gamma` (default is 0.1),
+Choose `--output_dir` as the path and name you want to choose for the weights file.  
+Choose `--epochs` (default is 25), `--lr` (default is 0.001), `--momentum` (default is 0.9), `--step_size` (default is 7), `--gamma` (default is 0.1).  
 
 ## Testing/Evaluation on ResNet/EfficientNet/ConvNext/VIT
 To evaluate a model, please run the following command:
