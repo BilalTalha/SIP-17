@@ -22,7 +22,7 @@ import copy
 import numpy as np
 import pandas as pd
 import sklearn
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import confusion_matrix, accuracy_score, precision_recall_fscore_support
 
 cudnn.benchmark = True
 plt.ion()   # interactive mode
@@ -90,55 +90,78 @@ def test_model(model):
             (a,_,_,_)=inputs.size()
             for i in range(0,a):
               list_im.append(inputs[i])
-    #confusion matrix, update the class if needed
-    wandb.sklearn.plot_confusion_matrix(list_target, list_pred, ["Airgun","CouplingHalf","Cross","Electricity12","Fork1","Fork2","Fork3","Gear1","Gear2","Hammer","Hook","Pin1","Pin2","Pinion","Plug"])
-    #wandb.log({"conf_mat" : wandb.plot.confusion_matrix(probs=None,preds=list_pred, y_true=list_target,class_names=["Airgun", "BlackButton","CouplingHalf","Cross","Electricity12","Fork1","Fork2","Fork3","Gear1","Gear2","Hammer","Hook","Pin1","Pin2","Pinion","Plug"])})
     
-    #per class accuracy table
+    
+        ##----------------Visulize Overall results-----------------------------
+    # Calculate overall accuracy
+    overall_accuracy = accuracy_score(list_target, list_pred)
+
+    # Calculate macro-average precision, recall, and F1 score
+    precision_macro, recall_macro, f1_score_macro, _ = precision_recall_fscore_support(list_target, list_pred, average='macro')
+
+    # Initialize a table for logging overall metrics
+    overall_metrics_table = wandb.Table(columns=["Metric", "Value"])
+
+    # Add overall accuracy to the table
+    overall_metrics_table.add_data("Overall Accuracy", f"{overall_accuracy:.4f}")
+
+    # Add macro averages to the table
+    overall_metrics_table.add_data("Macro Precision", f"{precision_macro:.4f}")
+    overall_metrics_table.add_data("Macro Recall", f"{recall_macro:.4f}")
+    overall_metrics_table.add_data("Macro F1 Score", f"{f1_score_macro:.4f}")
+
+    # Log the table to wandb
+    wandb.log({"Overall results": overall_metrics_table})
+    
+
+    
+ ##----------------Visulize Class-wise results-----------------------------
+    # Calculate confusion matrix
     cm = confusion_matrix(list_target, list_pred)
-    cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
-    matrix = cm.diagonal()
-    tbl2 = wandb.Table(columns=["class", "Accuracy"])
-    classes = ["Airgun","CouplingHalf","Cross","Electricity12","Fork1","Fork2","Fork3","Gear1","Gear2","Hammer","Hook","Pin1","Pin2","Pinion","Plug"]
-    accuracies = matrix
+    # Calculate per-class accuracy from the confusion matrix
+    class_accuracies = cm.diagonal() / cm.sum(axis=1)
+
+    # Log class metrics (including precision, recall, F1 score, and accuracy per class) to wandb
+    class_metrics_table = wandb.Table(columns=["Class", "Precision", "Recall", "F1 Score", "Accuracy"])
+    precisions, recalls, f1_scores, _ = precision_recall_fscore_support(list_target, list_pred, average=None)
+
+    # Add data to the table
+    for i, class_name in enumerate(class_names):
+        class_metrics_table.add_data(class_name, precisions[i], recalls[i], f1_scores[i], class_accuracies[i])
+
+
+    # Log the table to wandb
+    wandb.log({"Class Metrics": class_metrics_table})
+
+    # Log confusion matrix using wandb
+    wandb.sklearn.plot_confusion_matrix(list_target, list_pred, class_names)
     
-    #map index to classes 
-    idx_to_class = {i:j for i, j in enumerate(classes)}
-    class_to_idx = {value:key for key,value in idx_to_class.items()}
+    # For visualizing predictions with class names
+    image_predictions_table = wandb.Table(columns=["Image", "Prediction", "Target"])
 
-    for k,v in idx_to_class.items():
-      list_pred = [v if x==k else x for x in list_pred]
+    for image, pred, tgt in zip(list_im, list_pred, list_target):
+        # Map numeric labels to class names
+        predicted_class_name = class_names[int(pred)]
+        true_class_name = class_names[int(tgt)]
+        
+        # Add data to table with class names
+        image_predictions_table.add_data(wandb.Image(image), predicted_class_name, true_class_name)
 
-    for k,v in idx_to_class.items():
-      list_target = [v if x==k else x for x in list_target]
+    # Log the table to wandb
+    wandb.log({"Image Predictions": image_predictions_table})
 
-    #Add tables to wandb
-    tbl1 = wandb.Table(columns=["image", "prediction", "target"])
-    [tbl1.add_data(wandb.Image(image), lbl, tgt) for image, lbl, tgt in zip(list_im, list_pred , list_target)]
-    wandb.log({"ResNet_output": tbl1})
-    [tbl2.add_data(clas, label) for clas, label in zip(classes, accuracies)]
-    wandb.log({"Per-Class-Accuracy": tbl2})
-
+#-----------------Main--------------------------------------
         
 model_ft = models.resnet50(pretrained=True)
 for param in model_ft.parameters():
     param.requires_grad = False
+
+# nn.Linear(num_ftrs, len(class_names)).
 num_ftrs = model_ft.fc.in_features
-# Here the size of each output sample is set to 2.
-# Alternatively, it can be generalized to nn.Linear(num_ftrs, len(class_names)).
-model_ft.fc = nn.Linear(num_ftrs, 15)
+model_ft.fc = nn.Linear(num_ftrs, len(class_names))
 for param in model_ft.fc.parameters():
     param.requires_grad = True
 model_ft = model_ft.to(device)
-
-
-criterion = nn.CrossEntropyLoss()
-
-# Observe that all parameters are being optimized
-optimizer_ft = optim.SGD(model_ft.parameters(), lr=0.001, momentum=0.9)
-
-# Decay LR by a factor of 0.1 every 7 epochs
-exp_lr_scheduler = lr_scheduler.StepLR(optimizer_ft, step_size=7, gamma=0.1)
 
 model_ft.load_state_dict(torch.load(args.weights))
 test_model(model_ft)

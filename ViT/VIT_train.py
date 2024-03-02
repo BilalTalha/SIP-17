@@ -31,9 +31,27 @@ def get_args_parser():
     parser.add_argument('--data_path', default='/path/to/imagenet/train/', type=str,
         help='Please specify path to the ImageNet training data.')
     parser.add_argument('--output_dir', default=".", type=str, help='Path to save logs and checkpoints.')
+    parser.add_argument('--epochs', default=25, type=int,
+                        help='Number of epochs to train for.')
+    parser.add_argument('--lr', default=0.001, type=float,
+                        help='Initial learning rate.')
+    parser.add_argument('--momentum', default=0.9, type=float,
+                        help='Momentum for SGD optimizer.')
+    parser.add_argument('--step_size', default=7, type=int,
+                        help='Step size for learning rate decay.')
+    parser.add_argument('--gamma', default=0.1, type=float,
+                        help='Gamma for learning rate decay.')
     return parser
 parser = argparse.ArgumentParser('VIT', parents=[get_args_parser()])
 args = parser.parse_args()
+
+# Extract the directory path from the full output path
+output_directory = os.path.dirname(args.output_dir)
+
+# Check if the directory exists. If not, create it.
+if not os.path.exists(output_directory):
+    os.makedirs(output_directory)
+    print(f"Created directory: {output_directory}")
 
 # Data augmentation and normalization for training
 # Just normalization for validation
@@ -142,9 +160,10 @@ model_ft = models.vit_b_16(pretrained=True)
 for param in model_ft.parameters():
     param.requires_grad = False
 #print(model_ft)
-# Here the size of each output sample is set to 2.
+    
 # Alternatively, it can be generalized to nn.Linear(num_ftrs, len(class_names)).
-model_ft.heads.head = nn.Linear(in_features=768, out_features=15, bias=True)
+num_ftrs = model_ft.heads.head.in_features
+model_ft.heads.head = nn.Linear(in_features=num_ftrs, out_features=len(class_names), bias=True)
 for param in model_ft.heads.head.parameters():
     param.requires_grad = True
 model_ft = model_ft.to(device)
@@ -152,13 +171,13 @@ model_ft = model_ft.to(device)
 criterion = nn.CrossEntropyLoss()
 
 # Observe that all parameters are being optimized
-optimizer_ft = optim.SGD(model_ft.parameters(), lr=0.001, momentum=0.9)
+optimizer_ft = optim.SGD(model_ft.parameters(), lr=args.lr, momentum=args.momentum)
 
 # Decay LR by a factor of 0.1 every 7 epochs
-exp_lr_scheduler = lr_scheduler.StepLR(optimizer_ft, step_size=7, gamma=0.1)
+exp_lr_scheduler = lr_scheduler.StepLR(optimizer_ft, step_size=args.step_size, gamma=args.gamma)
 
 model_ft = train_model(model_ft, criterion, optimizer_ft, exp_lr_scheduler,
-                       num_epochs=15)
+                       num_epochs=args.epochs)
 
 path = args.output_dir
 torch.save(model_ft.state_dict(), path)

@@ -31,9 +31,28 @@ def get_args_parser():
     parser.add_argument('--data_path', default='/path/to/imagenet/train/', type=str,
         help='Please specify path to the ImageNet training data.')
     parser.add_argument('--output_dir', default=".", type=str, help='Path to save logs and checkpoints.')
+    parser.add_argument('--epochs', default=25, type=int,
+                        help='Number of epochs to train for.')
+    parser.add_argument('--lr', default=0.001, type=float,
+                        help='Initial learning rate.')
+    parser.add_argument('--momentum', default=0.9, type=float,
+                        help='Momentum for SGD optimizer.')
+    parser.add_argument('--step_size', default=7, type=int,
+                        help='Step size for learning rate decay.')
+    parser.add_argument('--gamma', default=0.1, type=float,
+                        help='Gamma for learning rate decay.')
     return parser
+
 parser = argparse.ArgumentParser('ConvNext', parents=[get_args_parser()])
 args = parser.parse_args()
+
+# Extract the directory path from the full output path
+output_directory = os.path.dirname(args.output_dir)
+
+# Check if the directory exists. If not, create it.
+if not os.path.exists(output_directory):
+    os.makedirs(output_directory)
+    print(f"Created directory: {output_directory}")
 
 # Data augmentation and normalization for training
 # Just normalization for validation
@@ -62,6 +81,8 @@ dataloaders = {x: torch.utils.data.DataLoader(image_datasets[x], batch_size=4,
               for x in ['train', 'val']}
 dataset_sizes = {x: len(image_datasets[x]) for x in ['train', 'val']}
 class_names = image_datasets['train'].classes
+#print ("class_name", class_names)
+#print ("class_number", len(class_names))
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -137,13 +158,16 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
     model.load_state_dict(best_model_wts)
     return model
 
-model_ft = models.convnext_tiny(pretrained=True)
-print(model_ft)
+model_ft = models.convnext_base(pretrained=True)
+#model_ft = models.convnext_tiny(pretrained=True)
+
+#print(model_ft)
 for param in model_ft.parameters():
     param.requires_grad = False
-# Here the size of each output sample is set to 2.
-# Alternatively, it can be generalized to nn.Linear(num_ftrs, len(class_names)).1024 for base
-model_ft.classifier[2] = nn.Linear(in_features=768, out_features=15)
+
+#  nn.Linear(num_ftrs, len(class_names)).1024 for base, 768 for tiny
+num_ftrs = model_ft.classifier[2].in_features
+model_ft.classifier[2] = nn.Linear(in_features=num_ftrs, out_features=len(class_names))
 for param in model_ft.classifier[2].parameters():
     param.requires_grad = True
 model_ft = model_ft.to(device)
@@ -151,13 +175,13 @@ model_ft = model_ft.to(device)
 criterion = nn.CrossEntropyLoss()
 
 # Observe that all parameters are being optimized
-optimizer_ft = optim.SGD(model_ft.parameters(), lr=0.001, momentum=0.9)
+optimizer_ft = optim.SGD(model_ft.parameters(), lr=args.lr, momentum=args.momentum)
 
 # Decay LR by a factor of 0.1 every 7 epochs
-exp_lr_scheduler = lr_scheduler.StepLR(optimizer_ft, step_size=7, gamma=0.1)
+exp_lr_scheduler = lr_scheduler.StepLR(optimizer_ft, step_size=args.step_size, gamma=args.gamma)
 
 model_ft = train_model(model_ft, criterion, optimizer_ft, exp_lr_scheduler,
-                       num_epochs=15)
+                       num_epochs=args.epochs)
 
 path = args.output_dir
 torch.save(model_ft.state_dict(), path)
