@@ -168,10 +168,22 @@ for param in model_ft.classifier[2].parameters():
 model_ft = model_ft.to(device)
 
 
-model_ft.load_state_dict(torch.load(args.weights))
+#model_ft.load_state_dict(torch.load(args.weights))
+#test_model(model_ft)
+
+### The due to Pytorch may update the architecture of ConvNext, use the following code to only match the compatible layers:
+checkpoint = torch.load(args.weights, map_location=torch.device('cpu'))
+model_state_dict = model_ft.state_dict()
+
+# Carefully match only compatible layers
+matched_state_dict = {k: v for k, v in checkpoint.items() if k in model_state_dict and v.size() == model_state_dict[k].size()}
+model_state_dict.update(matched_state_dict)
+
+# Update model state dictionary
+model_ft.load_state_dict(model_state_dict, strict=False)
+
+# Set the model to evaluation mode and run testing
+model_ft.eval()
 test_model(model_ft)
-
-
-
 
 
