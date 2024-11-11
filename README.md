@@ -138,7 +138,12 @@ python eval_linear.py --evaluate --arch vit_small --patch_size 16 --batch_size_p
 Note: put test images in folder with name 'val'
 
 ## Pretrained Weights
-Watch this section...
+
+You can find our trained weights for the ConvNeXt model on the 15 objects here: 
+- [Google Drive Link to Weights](https://drive.google.com/drive/folders/1M1AlmrsgbAtfVwHUQf0hiudHImOZmzC_?usp=sharing)
+
+For other weights, please watch this repository for updates or contact us for further information.
+
 
 ## Acknowledgement  
 The DINO code used in this project is based on the original implementation from the [DINO](https://github.com/facebookresearch/dino) repository. 
