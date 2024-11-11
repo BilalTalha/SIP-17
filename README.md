@@ -140,7 +140,7 @@ Note: put test images in folder with name 'val'
 ## Pretrained Weights
 
 You can find our trained weights for the ConvNeXt model on the 15 objects here: 
-- [Google Drive Link to Weights](https://drive.google.com/drive/folders/1M1AlmrsgbAtfVwHUQf0hiudHImOZmzC_?usp=sharing)
+- [Trained model of ConvNeXt](https://drive.google.com/drive/folders/1M1AlmrsgbAtfVwHUQf0hiudHImOZmzC_?usp=sharing)
 
 For other weights, please watch this repository for updates or contact us for further information.
 
